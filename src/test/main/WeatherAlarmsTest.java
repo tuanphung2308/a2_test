@@ -1,8 +1,11 @@
 package test.main; 
 
-import org.junit.Test; 
+import main.WeatherAlarms;
+import org.junit.Test;
 import org.junit.Before; 
-import org.junit.After; 
+import org.junit.After;
+
+import java.lang.reflect.Method;
 
 /** 
 * WeatherAlarms Tester. 
@@ -77,19 +80,17 @@ try {
 * Method: readWeatherConditions() 
 * 
 */ 
-@Test
-public void testReadWeatherConditions() throws Exception { 
-//TODO: Test goes here... 
-/* 
-try { 
-   Method method = WeatherAlarms.getClass().getMethod("readWeatherConditions"); 
-   method.setAccessible(true); 
-   method.invoke(<Object>, <Parameters>); 
-} catch(NoSuchMethodException e) { 
-} catch(IllegalAccessException e) { 
-} catch(InvocationTargetException e) { 
-} 
-*/ 
-} 
+//@Test
+//public void testReadWeatherConditions() throws Exception {
+////TODO: Test goes here...
+//try {
+//   Method method = WeatherAlarms.getClass().getMethod("readWeatherConditions");
+//   method.setAccessible(true);
+//   method.invoke(<Object>, <Parameters>);
+//} catch(NoSuchMethodException e) {
+//} catch(IllegalAccessException e) {
+//} catch(InvocationTargetException e) {
+//}
+//}
 
 } 

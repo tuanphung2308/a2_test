@@ -1,115 +1,65 @@
-package test.support; 
+package test.support;
 
-import org.junit.Test; 
-import org.junit.Before; 
-import org.junit.After; 
+import static org.junit.Assert.assertEquals;
 
-/** 
-* Sensor Tester. 
-* 
-* @author <Authors name> 
-* @since <pre>Sep 4, 2019</pre> 
-* @version 1.0 
-*/ 
-public class SensorTest { 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.LinkedHashMap;
 
-@Before
-public void before() throws Exception { 
-} 
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import support.Sensor;
 
-@After
-public void after() throws Exception { 
-} 
+@RunWith(Parameterized.class)
+public class SensorTest {
+    private String sensorUsername;
+    private String sensorType;
+    private LinkedHashMap linkedHashMap;
 
-/** 
-* 
-* Method: getCurrentValue() 
-* 
-*/ 
-@Test
-public void testGetCurrentValue() throws Exception { 
-//TODO: Test goes here... 
-} 
+    public SensorTest(String p1, String p2, LinkedHashMap p3) {
+        sensorUsername = p1;
+        sensorType = p2;
+        p3 = linkedHashMap;
+    }
+    // creates the test data
+    @Parameters
+    public static Collection<Object[]> data() {
+        Object[][] data = new Object[][] {
+                { "Jack" , "Temperature" , },
+                { "David", "AQI" , },
+        };
+        return Arrays.asList(data);
+    }
+    @Test
+    public void testGetUsername() {
+        Sensor sensor = new Sensor(sensorUsername, sensorType);
+        assertEquals("Equals", sensorUsername, sensor.getUsername());
+    }
 
-/** 
-* 
-* Method: getData() 
-* 
-*/ 
-@Test
-public void testGetData() throws Exception { 
-//TODO: Test goes here... 
-} 
+    @Test
+    public void testGetType() {
+        Sensor sensor = new Sensor(sensorUsername, sensorType);
+        assertEquals("Equals", sensorType, sensor.getType());
+    }
 
-/** 
-* 
-* Method: setData(LinkedHashMap<String, Integer> data) 
-* 
-*/ 
-@Test
-public void testSetData() throws Exception { 
-//TODO: Test goes here... 
-} 
+    @Test
+    public void testReadWeatherConditions() throws Exception {
+        Sensor sensor = new Sensor(sensorUsername, sensorType);
 
-/** 
-* 
-* Method: getUsername() 
-* 
-*/ 
-@Test
-public void testGetUsername() throws Exception { 
-//TODO: Test goes here... 
-} 
+        try {
+            Method method = sensor.getClass().getDeclaredMethod("readData");
+            method.setAccessible(true);
+            Object res = method.invoke(sensor);
+            System.out.println(res);
+        } catch(NoSuchMethodException e) {
+        } catch(IllegalAccessException e) {
+        } catch(InvocationTargetException e) {
+            System.out.println("Invoke except");
+        }
+    }
 
-/** 
-* 
-* Method: setUsername(String username) 
-* 
-*/ 
-@Test
-public void testSetUsername() throws Exception { 
-//TODO: Test goes here... 
-} 
-
-/** 
-* 
-* Method: getType() 
-* 
-*/ 
-@Test
-public void testGetType() throws Exception { 
-//TODO: Test goes here... 
-} 
-
-/** 
-* 
-* Method: setType(String type) 
-* 
-*/ 
-@Test
-public void testSetType() throws Exception { 
-//TODO: Test goes here... 
-} 
-
-
-/** 
-* 
-* Method: readData() 
-* 
-*/ 
-@Test
-public void testReadData() throws Exception { 
-//TODO: Test goes here... 
-/* 
-try { 
-   Method method = Sensor.getClass().getMethod("readData"); 
-   method.setAccessible(true); 
-   method.invoke(<Object>, <Parameters>); 
-} catch(NoSuchMethodException e) { 
-} catch(IllegalAccessException e) { 
-} catch(InvocationTargetException e) { 
-} 
-*/ 
-} 
-
-} 
+}
