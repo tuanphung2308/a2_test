@@ -67,12 +67,12 @@ public interface PreferenceWorkerPrx extends com.zeroc.Ice.ObjectPrx
         return _iceI_getPreferenceAsync(request, context, true).waitForResponse();
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.String> getPreferenceAsync(PreferenceRequest request)
+    default java.util.concurrent.CompletableFuture<String> getPreferenceAsync(PreferenceRequest request)
     {
         return _iceI_getPreferenceAsync(request, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.String> getPreferenceAsync(PreferenceRequest request, java.util.Map<String, String> context)
+    default java.util.concurrent.CompletableFuture<String> getPreferenceAsync(PreferenceRequest request, java.util.Map<String, String> context)
     {
         return _iceI_getPreferenceAsync(request, context, false);
     }
@@ -84,9 +84,9 @@ public interface PreferenceWorkerPrx extends com.zeroc.Ice.ObjectPrx
      * @param sync -
      * @return -
      **/
-    default com.zeroc.IceInternal.OutgoingAsync<java.lang.String> _iceI_getPreferenceAsync(PreferenceRequest iceP_request, java.util.Map<String, String> context, boolean sync)
+    default com.zeroc.IceInternal.OutgoingAsync<String> _iceI_getPreferenceAsync(PreferenceRequest iceP_request, java.util.Map<String, String> context, boolean sync)
     {
-        com.zeroc.IceInternal.OutgoingAsync<java.lang.String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "getPreference", null, sync, null);
+        com.zeroc.IceInternal.OutgoingAsync<String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "getPreference", null, sync, null);
         f.invoke(true, context, null, ostr -> {
                      PreferenceRequest.ice_write(ostr, iceP_request);
                  }, istr -> {

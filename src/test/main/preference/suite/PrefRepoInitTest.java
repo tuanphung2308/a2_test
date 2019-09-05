@@ -1,4 +1,4 @@
-package test.main.preference;
+package test.main.preference.suite;
 
 import main.PreferenceRepository;
 import org.junit.Test;

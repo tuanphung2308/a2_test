@@ -15,7 +15,7 @@
 
 package helper;
 
-public class Alert implements java.lang.Cloneable,
+public class Alert implements Cloneable,
                               java.io.Serializable
 {
     public String type;
@@ -36,7 +36,7 @@ public class Alert implements java.lang.Cloneable,
         this.locations = locations;
     }
 
-    public boolean equals(java.lang.Object rhs)
+    public boolean equals(Object rhs)
     {
         if(this == rhs)
         {

@@ -1,5 +1,7 @@
-package main;
+package test.main.preference.suite;
 
+import main.PreferenceRepository;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -33,29 +35,29 @@ public class PrefRepoAPOSuggestTest {
         };
         return Arrays.asList(data);
     }
+    @Before
+    public void before() throws Exception {
+        Method initMethod = (PreferenceRepository.class).getDeclaredMethod("readPreference");
+        initMethod.setAccessible(true);
+
+        Field field = (PreferenceRepository.class).getDeclaredField("preferences");
+        field.setAccessible(true);
+        field.set(null, (List< Preference >) initMethod.invoke(preferenceRepository));
+    }
 
     @Test
     public void testGetSuggestionAPO() {
         try {
-            Method initMethod = (PreferenceRepository.class).getDeclaredMethod("readPreference");
-            initMethod.setAccessible(true);
+            Method testMethod = (PreferenceRepository.class).getDeclaredMethod("getSuggestionAPO", String.class);
+            testMethod.setAccessible(true);
+            String result = (String) testMethod.invoke(preferenceRepository, name);
 
-            Field field = (PreferenceRepository.class).getDeclaredField("preferences");
-            field.setAccessible(true);
-            field.set(null, (List< Preference >) initMethod.invoke(preferenceRepository));
-
-            String result = preferenceRepository.pkgGetSuggestionAPO(name);
-            assertEquals("Should be equal to bowling", services, result);
+            assertEquals("Should be equal", services, result);
         } catch(NoSuchMethodException e) {
         } catch(IllegalAccessException e) {
         } catch(InvocationTargetException e) {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    @Test
-    public void testGetSuggestionWeather() {
-
     }
 }

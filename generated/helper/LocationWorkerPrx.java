@@ -27,12 +27,12 @@ public interface LocationWorkerPrx extends com.zeroc.Ice.ObjectPrx
         return _iceI_locationMappingAsync(location, context, true).waitForResponse();
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.String> locationMappingAsync(String location)
+    default java.util.concurrent.CompletableFuture<String> locationMappingAsync(String location)
     {
         return _iceI_locationMappingAsync(location, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.String> locationMappingAsync(String location, java.util.Map<String, String> context)
+    default java.util.concurrent.CompletableFuture<String> locationMappingAsync(String location, java.util.Map<String, String> context)
     {
         return _iceI_locationMappingAsync(location, context, false);
     }
@@ -44,9 +44,9 @@ public interface LocationWorkerPrx extends com.zeroc.Ice.ObjectPrx
      * @param sync -
      * @return -
      **/
-    default com.zeroc.IceInternal.OutgoingAsync<java.lang.String> _iceI_locationMappingAsync(String iceP_location, java.util.Map<String, String> context, boolean sync)
+    default com.zeroc.IceInternal.OutgoingAsync<String> _iceI_locationMappingAsync(String iceP_location, java.util.Map<String, String> context, boolean sync)
     {
-        com.zeroc.IceInternal.OutgoingAsync<java.lang.String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "locationMapping", null, sync, null);
+        com.zeroc.IceInternal.OutgoingAsync<String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "locationMapping", null, sync, null);
         f.invoke(true, context, null, ostr -> {
                      ostr.writeString(iceP_location);
                  }, istr -> {

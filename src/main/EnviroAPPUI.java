@@ -100,7 +100,7 @@ public class EnviroAPPUI {
 	}
 
 	private static void setupSubcriber() {
-		com.zeroc.Ice.ObjectPrx obj = communicator.stringToProxy("IceStorm/TopicManager:tcp -p 10000");
+		ObjectPrx obj = communicator.stringToProxy("IceStorm/TopicManager:tcp -p 10000");
 		com.zeroc.IceStorm.TopicManagerPrx topicManager = com.zeroc.IceStorm.TopicManagerPrx.checkedCast(obj);
 
 		com.zeroc.Ice.ObjectAdapter adapter = communicator.createObjectAdapterWithEndpoints(topicName, "tcp");
@@ -128,7 +128,7 @@ public class EnviroAPPUI {
 	}
 
 	private static void iniContextManagerWorker(String[] args) {
-		com.zeroc.Ice.ObjectPrx base = communicator.stringToProxy("ContextManagerWorker:default -p 13333");
+		ObjectPrx base = communicator.stringToProxy("ContextManagerWorker:default -p 13333");
 		contextManagerWorker = ContextManagerWorkerPrx.checkedCast(base);
 	}
 

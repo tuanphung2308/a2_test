@@ -27,12 +27,12 @@ public interface WeatherAlarmWorkerPrx extends com.zeroc.Ice.ObjectPrx
         return _iceI_getWeatherAsync(context, true).waitForResponse();
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.Integer> getWeatherAsync()
+    default java.util.concurrent.CompletableFuture<Integer> getWeatherAsync()
     {
         return _iceI_getWeatherAsync(com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.Integer> getWeatherAsync(java.util.Map<String, String> context)
+    default java.util.concurrent.CompletableFuture<Integer> getWeatherAsync(java.util.Map<String, String> context)
     {
         return _iceI_getWeatherAsync(context, false);
     }
@@ -43,9 +43,9 @@ public interface WeatherAlarmWorkerPrx extends com.zeroc.Ice.ObjectPrx
      * @param sync -
      * @return -
      **/
-    default com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> _iceI_getWeatherAsync(java.util.Map<String, String> context, boolean sync)
+    default com.zeroc.IceInternal.OutgoingAsync<Integer> _iceI_getWeatherAsync(java.util.Map<String, String> context, boolean sync)
     {
-        com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "getWeather", null, sync, null);
+        com.zeroc.IceInternal.OutgoingAsync<Integer> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "getWeather", null, sync, null);
         f.invoke(true, context, null, null, istr -> {
                      int ret;
                      ret = istr.readInt();

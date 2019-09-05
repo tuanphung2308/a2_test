@@ -15,7 +15,7 @@
 
 package helper;
 
-public class User implements java.lang.Cloneable,
+public class User implements Cloneable,
                              java.io.Serializable
 {
     public int medicalConditionType;
@@ -51,7 +51,7 @@ public class User implements java.lang.Cloneable,
         this.tempReached = tempReached;
     }
 
-    public boolean equals(java.lang.Object rhs)
+    public boolean equals(Object rhs)
     {
         if(this == rhs)
         {

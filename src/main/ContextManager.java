@@ -167,7 +167,7 @@ public class ContextManager {
 
 	private static void setupAlerter(String username) {
 		String topicName = username + "-alerts";
-		com.zeroc.Ice.ObjectPrx obj = communicator.stringToProxy("IceStorm/TopicManager:tcp -p 10000");
+		ObjectPrx obj = communicator.stringToProxy("IceStorm/TopicManager:tcp -p 10000");
 		com.zeroc.IceStorm.TopicManagerPrx topicManager = com.zeroc.IceStorm.TopicManagerPrx.checkedCast(obj);
 		TopicPrx topic = null;
 		while (topic == null) {
@@ -181,14 +181,14 @@ public class ContextManager {
 				}
 			}
 		}
-		com.zeroc.Ice.ObjectPrx pub = topic.getPublisher().ice_oneway();
+		ObjectPrx pub = topic.getPublisher().ice_oneway();
 		AlerterPrx alerter = AlerterPrx.uncheckedCast(pub);
 		alerters.put(username, alerter);
 	}
 
 	private static void setupSubcriber(String username) {
 		String topicName = username + "-sensors";
-		com.zeroc.Ice.ObjectPrx obj = communicator.stringToProxy("IceStorm/TopicManager:tcp -p 10000");
+		ObjectPrx obj = communicator.stringToProxy("IceStorm/TopicManager:tcp -p 10000");
 		com.zeroc.IceStorm.TopicManagerPrx topicManager = com.zeroc.IceStorm.TopicManagerPrx.checkedCast(obj);
 
 		com.zeroc.Ice.ObjectAdapter adapter = communicator.createObjectAdapterWithEndpoints(topicName, "tcp");
@@ -226,17 +226,17 @@ public class ContextManager {
 	}
 
 	private static void iniPreferenceWorker() {
-		com.zeroc.Ice.ObjectPrx base = communicator.stringToProxy("PreferenceWorker:default -p 14444");
+		ObjectPrx base = communicator.stringToProxy("PreferenceWorker:default -p 14444");
 		preferenceWorker = PreferenceWorkerPrx.checkedCast(base);
 	}
 
 	private static void iniLocationMapper() {
-		com.zeroc.Ice.ObjectPrx base = communicator.stringToProxy("LocationWorker:default -p 11111");
+		ObjectPrx base = communicator.stringToProxy("LocationWorker:default -p 11111");
 		locationWorker = LocationWorkerPrx.checkedCast(base);
 	}
 	
 	private static void iniWeatherAlarmWorker() {
-		com.zeroc.Ice.ObjectPrx base = communicator.stringToProxy("WeatherAlarmWorker:default -p 15555");
+		ObjectPrx base = communicator.stringToProxy("WeatherAlarmWorker:default -p 15555");
 		weatherAlarmWorker = WeatherAlarmWorkerPrx.checkedCast(base);
 	}
 	
