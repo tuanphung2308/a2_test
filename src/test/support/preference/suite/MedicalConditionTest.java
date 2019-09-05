@@ -2,39 +2,44 @@ package test.support.preference.suite;
 
 import com.zeroc.Ice.Exception;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import support.Preference;
 
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(Parameterized.class)
+
 public class MedicalConditionTest {
     private String name;
     private Integer medicalCondition;
     private List<String> suggestions;
 
-    public MedicalConditionTest(String name, Integer medicalCondition, List<String> suggestions) {
-        this.name = name;
-        this.medicalCondition = medicalCondition;
-        this.suggestions = suggestions;
+    public MedicalConditionTest() {
+
     }
-
-    @Parameterized.Parameters
-
 
     @Test
     public void testGetMedicalCondition() throws Exception {
         Preference preference = new Preference(name,medicalCondition,suggestions);
-        assertEquals("Equals",name,preference.getName());
+        assertEquals("Equals",medicalCondition,preference.getMedicalCondition());
     }
 
     @Test
     public void testSetMedicalCondition() throws Exception {
-
+        Preference preference = new Preference(name,medicalCondition,suggestions);
+        preference.setMedicalCondition(1);
+        assertEquals("1",String.valueOf(preference.getMedicalCondition()));
+    }
+    @Test
+    public void testSetMedicalCondition2() throws Exception {
+        Preference preference = new Preference(name,medicalCondition,suggestions);
+        preference.setMedicalCondition(2);
+        assertEquals("2",String.valueOf(preference.getMedicalCondition()));
+    }
+    @Test
+    public void testSetMedicalCondition3() throws Exception {
+        Preference preference = new Preference(name,medicalCondition,suggestions);
+        preference.setMedicalCondition(3);
+        assertEquals("3",String.valueOf(preference.getMedicalCondition()));
     }
 }

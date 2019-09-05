@@ -2,12 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="214b937f-1767-4468-96e9-1d6a0c76e47e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/main/context/AQIThreshHoldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/main/context/CityInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/main/context/UserClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/main/preference/suite/worker/PrefWorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/META-INF/csse4004.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/Alarm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/Alarm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/AlarmPrx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/Alert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/Alerter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/Alerter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/AlerterPrx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/ContextManagerWorker$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/ContextManagerWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/ContextManagerWorkerPrx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/LocationWorker$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/LocationWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/LocationWorkerPrx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/Monitor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/Monitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/MonitorPrx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/PreferenceRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/PreferenceWorker$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/PreferenceWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/PreferenceWorkerPrx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/SensorData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorkerPrx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/WeatherData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/_AlarmPrxI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/_AlerterPrxI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/_ContextManagerWorkerPrxI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/_LocationWorkerPrxI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/_MonitorPrxI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/_PreferenceWorkerPrxI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/helper/_WeatherAlarmWorkerPrxI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/AllSensors$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/AllSensors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/ContextManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/ContextManager$ContextManagerWorkerI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/ContextManager$MonitorI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/ContextManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/EnviroAPPUI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/EnviroAPPUI$AlerterI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/EnviroAPPUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/LocationServer$LocationWorkerI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/LocationServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/PreferenceRepository$PreferenceWorkerI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/WeatherAlarms$WeatherAlarmWorkerI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main/WeatherAlarms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/support/HandleUserInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/support/LocationDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/support/Preference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/support/Sensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/AllSensorsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/ContextManagerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/EnviroAPPUITest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/LocationServerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/PreferenceRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/WeatherAlarmsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/preference/PrefRepoInitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/preference/PrefWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/main/preference/PreferenceRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/HandleUserInputTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/LocationDetailsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/preference/PreferenceSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/preference/PreferenceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/preference/suite/MedicalConditionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/preference/suite/SuggestionsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/preference/suite/UserNameTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/sensor/SensorSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/sensor/SensorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/sensor/suite/AQISensorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/sensor/suite/LocationSensorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/sensor/suite/TemperatureSensorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test/support/sensor/suite/UsernameAndTypeSensorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/PrefWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/preference/PrefWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/PreferenceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/slice/Helper.ice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/MedicalConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/preference/suite/MedicalConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/SuggestionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/preference/suite/SuggestionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/UserNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/preference/suite/UserNameTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,18 +134,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/support" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test.main.preference.suite.worker" />
-      <recent name="test.main.preference" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.main.preference.suite.worker" />
+      <recent name="test.main.preference" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/support" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,12 +248,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Multirun.Unnamed" />
       <item itemvalue="JUnit.PrefWorkerTest" />
       <item itemvalue="JUnit.AQIThreshHoldTest.testThreshHold" />
       <item itemvalue="JUnit.AQIThreshHoldTest" />
       <item itemvalue="JUnit.UserClockTest.testResetClock" />
       <item itemvalue="JUnit.UserClockTest.testTickClock" />
+      <item itemvalue="Multirun.Unnamed" />
     </list>
     <recent_temporary>
       <list>
