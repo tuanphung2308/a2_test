@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="214b937f-1767-4468-96e9-1d6a0c76e47e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/support/sensor/SensorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/support/sensor/suite/AQISensorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/support/sensor/suite/LocationSensorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/support/sensor/suite/TemperatureSensorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/support/sensor/suite/UsernameAndTypeSensorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/preference/PreferenceRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/SensorSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/sensor/SensorSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/SensorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/SensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/sensor/SensorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/AQISensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/sensor/suite/AQISensorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/LocationSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/sensor/suite/LocationSensorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/TemperatureSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/sensor/suite/TemperatureSensorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -202,7 +198,7 @@
       <workItem from="1567599160356" duration="175000" />
       <workItem from="1567624894762" duration="104000" />
       <workItem from="1567654600559" duration="2810000" />
-      <workItem from="1567661172561" duration="1495000" />
+      <workItem from="1567661172561" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="test fix">
       <created>1567655892928</created>
@@ -225,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567660965570</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Sensor Support Suite">
+      <created>1567663302477</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567663302477</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +251,8 @@
     <MESSAGE value="test fix" />
     <MESSAGE value="hashmap test" />
     <MESSAGE value="- Sensor Suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Sensor Suite" />
+    <MESSAGE value="- Sensor Support Suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Sensor Support Suite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -276,91 +280,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8.0_202</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>csse4004</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

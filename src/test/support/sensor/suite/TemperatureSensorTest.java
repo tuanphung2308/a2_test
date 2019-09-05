@@ -1,13 +1,14 @@
 package test.support.sensor.suite;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import test.support.sensor.SensorTest;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedHashMap;
-
+@RunWith(Parameterized.class)
 public class TemperatureSensorTest extends SensorTest {
     public TemperatureSensorTest(String p1, String p2, LinkedHashMap p3) {
         super(p1, p2, p3);

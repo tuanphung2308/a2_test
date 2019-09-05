@@ -13,7 +13,6 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 import support.Sensor;
 
-@RunWith(Parameterized.class)
 public class SensorTest {
     private String sensorUsername;
     private String sensorType;
@@ -25,12 +24,6 @@ public class SensorTest {
         sensorUsername = p1;
         sensorType = p2;
         linkedHashMap = p3;
-    }
-
-    // creates the test data
-    @Parameters
-    public static Collection<Object[]> data() {
-        return Arrays.asList(data);
     }
 
     public void testReadWeatherConditions() {

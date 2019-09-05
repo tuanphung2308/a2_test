@@ -1,6 +1,7 @@
 package test.support.sensor.suite;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import test.support.sensor.SensorTest;
 
@@ -9,7 +10,7 @@ import java.util.Collection;
 import java.util.LinkedHashMap;
 
 import static org.junit.Assert.assertEquals;
-
+@RunWith(Parameterized.class)
 public class AQISensorTest extends SensorTest {
     public AQISensorTest(String p1, String p2, LinkedHashMap p3) {
         super(p1, p2, p3);
