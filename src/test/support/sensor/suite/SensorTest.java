@@ -1,4 +1,4 @@
-package test.support;
+package test.support.sensor.suite;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,6 +12,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
+import sun.awt.image.ImageWatched;
 import support.Sensor;
 
 @RunWith(Parameterized.class)
@@ -29,17 +30,42 @@ public class SensorTest {
     // creates the test data
     @Parameters
     public static Collection<Object[]> data() {
-        LinkedHashMap m1 = new LinkedHashMap();
-        LinkedHashMap m2 = new LinkedHashMap();
-        m1.put("10", 5);
-        m1.put("15", 3);
-        m1.put("20", 4);
+        LinkedHashMap jackTemp = new LinkedHashMap();
+        jackTemp.put("10", 5);
+        jackTemp.put("15", 3);
+        jackTemp.put("20", 4);
 
-        m2.put("200", 15);
-        m2.put("90", 11);
+        LinkedHashMap davidTemp = new LinkedHashMap();
+        davidTemp.put("10", 5);
+        davidTemp.put("25", 3);
+        davidTemp.put("20", 4);
+
+        LinkedHashMap davidAQI = new LinkedHashMap();
+
+        davidAQI.put("200", 15);
+        davidAQI.put("90", 11);
+
+        LinkedHashMap jackAQI = new LinkedHashMap();
+        jackAQI.put("200", 15);
+        jackAQI.put("90", 11);
+
+        LinkedHashMap davidLocation = new LinkedHashMap();
+        davidLocation.put("A", 1);
+        davidLocation.put("C", 15);
+        davidLocation.put("D", 14);
+
+        LinkedHashMap jackLocation = new LinkedHashMap();
+        jackLocation.put("A", 1);
+        jackLocation.put("C", 15);
+        jackLocation.put("D", 14);
+
         Object[][] data = new Object[][] {
-                { "Jack" , "Temperature" , m1},
-                { "David", "AQI" , m2},
+                { "Jack" , "Temperature" , jackTemp},
+                { "Jack" , "AQI" , jackAQI},
+                { "Jack" , "Location" , jackLocation},
+                { "David", "Temperature" , davidTemp},
+                { "David", "AQI" , davidAQI},
+                { "David", "Location" , davidLocation},
         };
         return Arrays.asList(data);
     }
@@ -64,7 +90,7 @@ public class SensorTest {
             method.setAccessible(true);
             LinkedHashMap res = (LinkedHashMap) method.invoke(sensor);
             assertEquals("Equal", res, linkedHashMap);
-            System.out.println(res);
+//            System.out.println(res);
         } catch(NoSuchMethodException e) {
         } catch(IllegalAccessException e) {
         } catch(InvocationTargetException e) {
