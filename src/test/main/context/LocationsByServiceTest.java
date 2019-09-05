@@ -66,7 +66,23 @@ public class LocationsByServiceTest {
                         Arrays.asList(
                                 "Ho Chi Minh City, Downtown"
                         )
-                }
+                },
+                {
+                        "",
+                        Arrays.asList()
+                },
+                {
+                        "asdasdsaidaiopqwdpoqwopdkopaopdasdas",
+                        Arrays.asList()
+                },
+                {
+                        "123123123123",
+                        Arrays.asList()
+                },
+                {
+                        "a",
+                        Arrays.asList()
+                },
         };
         return Arrays.asList(data);
     }
