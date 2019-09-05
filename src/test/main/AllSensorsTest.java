@@ -1,5 +1,6 @@
 package test.main;
 
+import com.zeroc.Ice.Exception;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
