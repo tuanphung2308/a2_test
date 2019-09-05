@@ -4,13 +4,6 @@ import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 
-/** 
-* HandleUserInput Tester. 
-* 
-* @author <Authors name> 
-* @since <pre>Sep 4, 2019</pre> 
-* @version 1.0 
-*/ 
 public class HandleUserInputTest { 
 
 @Before
@@ -28,7 +21,7 @@ public void after() throws Exception {
 */ 
 @Test
 public void testRun() throws Exception { 
-//TODO: Test goes here... 
+
 } 
 
 /** 
