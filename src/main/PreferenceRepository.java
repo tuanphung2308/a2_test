@@ -174,4 +174,12 @@ public class PreferenceRepository {
 		}
 		return result;
 	}
+
+	String pkgGetSuggestionAPO(String name) {
+		return getSuggestionAPO(name);
+	}
+
+	String pkgGetSuggestionWeather(String name, Integer weather) {
+		return getSuggestionWeather(name, weather);
+	}
 }

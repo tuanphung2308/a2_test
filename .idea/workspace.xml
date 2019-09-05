@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="214b937f-1767-4468-96e9-1d6a0c76e47e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/main/preference/PrefRepoInitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/main/preference/PrefWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/PrefRepoAPOSuggestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/PreferenceRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/preference/PreferenceRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/PreferenceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/PreferenceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PreferenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PreferenceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main/preference/PreferenceRepositoryTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,12 +74,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrefRepoInitTest.testReadPreferenceFunction">
+  <component name="RunManager" selected="JUnit.PrefRepoAPOSuggestTest.testGetSuggestionAPO">
+    <configuration name="PrefRepoAPOSuggestTest.testGetSuggestionAPO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.PrefRepoAPOSuggestTest" />
+      <option name="METHOD_NAME" value="testGetSuggestionAPO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrefRepoInitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.main.preference.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +110,7 @@
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.main.preference.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,21 +132,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.support.sensor" />
       <option name="MAIN_CLASS_NAME" value="test.support.sensor.SensorSuite" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemperatureSensorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.support.sensor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.support.sensor.suite" />
-      <option name="MAIN_CLASS_NAME" value="test.support.sensor.suite.TemperatureSensorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,18 +163,18 @@
     <list>
       <item itemvalue="JUnit.SensorSuite" />
       <item itemvalue="Multirun.Unnamed" />
-      <item itemvalue="JUnit.TemperatureSensorTest" />
       <item itemvalue="JUnit.UsernameAndTypeSensorTest" />
       <item itemvalue="JUnit.PrefRepoInitTest" />
       <item itemvalue="JUnit.PrefRepoInitTest.testReadPreferenceFunction" />
+      <item itemvalue="JUnit.PrefRepoAPOSuggestTest.testGetSuggestionAPO" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrefRepoAPOSuggestTest.testGetSuggestionAPO" />
         <item itemvalue="JUnit.PrefRepoInitTest.testReadPreferenceFunction" />
         <item itemvalue="JUnit.PrefRepoInitTest" />
         <item itemvalue="JUnit.SensorSuite" />
         <item itemvalue="JUnit.UsernameAndTypeSensorTest" />
-        <item itemvalue="JUnit.TemperatureSensorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,7 @@
       <workItem from="1567599160356" duration="175000" />
       <workItem from="1567624894762" duration="104000" />
       <workItem from="1567654600559" duration="2810000" />
-      <workItem from="1567661172561" duration="6256000" />
+      <workItem from="1567661172561" duration="11399000" />
     </task>
     <task id="LOCAL-00001" summary="test fix">
       <created>1567655892928</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567664611715</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- PrefRepo Init Test">
+      <created>1567669237319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567669237319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +267,8 @@
     <MESSAGE value="- Sensor Suite" />
     <MESSAGE value="- Sensor Support Suite" />
     <MESSAGE value="- Sensor Support Suite Typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Sensor Support Suite Typo" />
+    <MESSAGE value="- PrefRepo Init Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="- PrefRepo Init Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,23 +278,17 @@
           <line>42</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/PrefRepoAPOSuggestTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/PreferenceRepository.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>sensor.getClass().getMethod(&quot;readData&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>test.support.SensorTest</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sensor.getClass()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>test.support.SensorTest</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
