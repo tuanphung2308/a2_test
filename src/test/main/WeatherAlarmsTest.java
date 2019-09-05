@@ -1,11 +1,9 @@
 package test.main; 
 
-import main.WeatherAlarms;
 import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After;
 
-import java.lang.reflect.Method;
 
 /** 
 * WeatherAlarms Tester. 

@@ -2,11 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="214b937f-1767-4468-96e9-1d6a0c76e47e" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/MedicalConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/preference/suite/MedicalConditionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/SuggestionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/preference/suite/SuggestionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/UserNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/preference/suite/UserNameTest.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/test/main/preference/PrefRepoSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoTempSuggestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoWeatherSuggestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/PreferenceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/PreferenceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/Alarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/Alarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/AlarmPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/AlarmPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/Alerter.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/Alerter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/AlerterPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/AlerterPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/ContextManagerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/ContextManagerWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/ContextManagerWorkerPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/ContextManagerWorkerPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/LocationWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/LocationWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/LocationWorkerPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/LocationWorkerPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/MonitorPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/MonitorPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/PreferenceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/PreferenceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/PreferenceWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/PreferenceWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/PreferenceWorkerPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/PreferenceWorkerPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/SensorData.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/SensorData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/WeatherAlarmWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/WeatherAlarmWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/WeatherAlarmWorkerPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/WeatherAlarmWorkerPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/_AlarmPrxI.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/_AlarmPrxI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/_AlerterPrxI.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/_AlerterPrxI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/_ContextManagerWorkerPrxI.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/_ContextManagerWorkerPrxI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/_LocationWorkerPrxI.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/_LocationWorkerPrxI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/_MonitorPrxI.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/_MonitorPrxI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/_PreferenceWorkerPrxI.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/_PreferenceWorkerPrxI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/helper/_WeatherAlarmWorkerPrxI.java" beforeDir="false" afterPath="$PROJECT_DIR$/generated/helper/_WeatherAlarmWorkerPrxI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AllSensors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AllSensors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ContextManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ContextManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/EnviroAPPUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EnviroAPPUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PrefRepoAPOSuggestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoAPOSuggestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PreferenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PreferenceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main/WeatherAlarmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/WeatherAlarmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main/preference/PrefRepoInitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoInitTest.java" afterDir="false" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +60,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
@@ -114,6 +158,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -131,6 +177,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -155,10 +202,13 @@
     <option name="width" value="1315" />
     <option name="height" value="820" />
   </component>
+=======
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
   <component name="ProjectId" id="1QNxWxwX5LdokLLBBYaQgwQbVX3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -209,6 +259,8 @@
       </pane>
     </panes>
   </component>
+=======
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -226,7 +278,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -235,8 +287,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/support" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.main.preference" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,6 +312,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.SuggestionsTest.testSetSuggestions">
     <configuration name="MedicalConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
@@ -262,12 +324,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.support.preference.suite" />
       <option name="MAIN_CLASS_NAME" value="test.support.preference.suite.MedicalConditionTest" />
+=======
+  <component name="RunManager" selected="JUnit.PrefRepoSuite">
+    <configuration name="PrefRepoInitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.preference.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.preference.suite" />
+      <option name="MAIN_CLASS_NAME" value="test.main.preference.suite.PrefRepoInitTest" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="SuggestionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PrefRepoSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -275,13 +354,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="test.support.preference.suite" />
       <option name="MAIN_CLASS_NAME" value="test.support.preference.suite.SuggestionsTest" />
+=======
+      <option name="PACKAGE_NAME" value="test.main.preference" />
+      <option name="MAIN_CLASS_NAME" value="test.main.preference.PrefRepoSuite" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="SuggestionsTest.testGetSuggestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
@@ -294,10 +379,24 @@
       <option name="MAIN_CLASS_NAME" value="test.support.preference.suite.SuggestionsTest" />
       <option name="METHOD_NAME" value="testGetSuggestions" />
       <option name="TEST_OBJECT" value="method" />
+=======
+    <configuration name="PrefRepoTempSuggestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.preference.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.preference.suite" />
+      <option name="MAIN_CLASS_NAME" value="test.main.preference.suite.PrefRepoTempSuggestTest" />
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="SuggestionsTest.testSetSuggestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
@@ -309,11 +408,25 @@
       <option name="PACKAGE_NAME" value="test.support.preference.suite" />
       <option name="MAIN_CLASS_NAME" value="test.support.preference.suite.SuggestionsTest" />
       <option name="METHOD_NAME" value="testSetSuggestions" />
+=======
+    <configuration name="PrefRepoTempSuggestTest.testGetSuggestionAPO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.preference.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.preference.suite" />
+      <option name="MAIN_CLASS_NAME" value="test.main.preference.suite.PrefRepoTempSuggestTest" />
+      <option name="METHOD_NAME" value="testGetSuggestionAPO" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="UserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
@@ -324,6 +437,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.support.preference.suite" />
       <option name="MAIN_CLASS_NAME" value="test.support.preference.suite.UserNameTest" />
+=======
+    <configuration name="PrefRepoWeatherSuggestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.preference.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.preference.suite" />
+      <option name="MAIN_CLASS_NAME" value="test.main.preference.suite.PrefRepoWeatherSuggestTest" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,6 +463,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="JUnit.UserNameTest" />
       <item itemvalue="JUnit.SuggestionsTest" />
       <item itemvalue="JUnit.SuggestionsTest.testSetSuggestions" />
@@ -351,6 +477,22 @@
         <item itemvalue="JUnit.SuggestionsTest.testGetSuggestions" />
         <item itemvalue="JUnit.SuggestionsTest" />
         <item itemvalue="JUnit.UserNameTest" />
+=======
+      <item itemvalue="JUnit.PrefRepoInitTest" />
+      <item itemvalue="Multirun.Unnamed" />
+      <item itemvalue="JUnit.PrefRepoTempSuggestTest.testGetSuggestionAPO" />
+      <item itemvalue="JUnit.PrefRepoTempSuggestTest" />
+      <item itemvalue="JUnit.PrefRepoWeatherSuggestTest" />
+      <item itemvalue="JUnit.PrefRepoSuite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PrefRepoSuite" />
+        <item itemvalue="JUnit.PrefRepoWeatherSuggestTest" />
+        <item itemvalue="JUnit.PrefRepoTempSuggestTest" />
+        <item itemvalue="JUnit.PrefRepoTempSuggestTest.testGetSuggestionAPO" />
+        <item itemvalue="JUnit.PrefRepoInitTest" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
       </list>
     </recent_temporary>
   </component>
@@ -374,8 +516,13 @@
       <workItem from="1567599160356" duration="175000" />
       <workItem from="1567624894762" duration="104000" />
       <workItem from="1567654600559" duration="2810000" />
+<<<<<<< HEAD
       <workItem from="1567661172561" duration="6256000" />
       <workItem from="1567670905307" duration="17537000" />
+=======
+      <workItem from="1567661172561" duration="12800000" />
+      <workItem from="1567679373414" duration="2268000" />
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
     </task>
     <task id="LOCAL-00001" summary="test fix">
       <created>1567655892928</created>
@@ -412,9 +559,31 @@
       <option name="project" value="LOCAL" />
       <updated>1567664611715</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- PrefRepo Init Test">
+      <created>1567669237319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567669237319</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- PrefRepo getAPOsuggest">
+      <created>1567675712876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567675712876</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- GitIgnore">
+      <created>1567675759851</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567675759851</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="SuggestionsTest_testGetSuggestions - 2019.09.05 at 21h 40m 36s.xml">
       <configuration name="SuggestionsTest.testGetSuggestions" configurationId="JUnit" />
@@ -484,6 +653,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+=======
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -493,28 +664,8 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
           </value>
         </entry>
       </map>
@@ -526,24 +677,12 @@
     <MESSAGE value="- Sensor Suite" />
     <MESSAGE value="- Sensor Support Suite" />
     <MESSAGE value="- Sensor Support Suite Typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Sensor Support Suite Typo" />
+    <MESSAGE value="- PrefRepo Init Test" />
+    <MESSAGE value="- PrefRepo getAPOsuggest" />
+    <MESSAGE value="- GitIgnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="- GitIgnore" />
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>sensor.getClass().getMethod(&quot;readData&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>test.support.SensorTest</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sensor.getClass()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>test.support.SensorTest</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/main/AllSensorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -753,5 +892,22 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/support/sensor/SensorTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoAPOSuggestTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> 0da7a060e6a43f9d08d90b5425cabefc2eac85fd
   </component>
 </project>

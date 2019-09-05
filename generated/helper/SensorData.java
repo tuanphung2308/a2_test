@@ -15,7 +15,7 @@
 
 package helper;
 
-public class SensorData implements java.lang.Cloneable,
+public class SensorData implements Cloneable,
                                    java.io.Serializable
 {
     public String username;
@@ -40,7 +40,7 @@ public class SensorData implements java.lang.Cloneable,
         this.aqi = aqi;
     }
 
-    public boolean equals(java.lang.Object rhs)
+    public boolean equals(Object rhs)
     {
         if(this == rhs)
         {

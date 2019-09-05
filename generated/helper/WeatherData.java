@@ -15,7 +15,7 @@
 
 package helper;
 
-public class WeatherData implements java.lang.Cloneable,
+public class WeatherData implements Cloneable,
                                     java.io.Serializable
 {
     public String weather;
@@ -30,7 +30,7 @@ public class WeatherData implements java.lang.Cloneable,
         this.weather = weather;
     }
 
-    public boolean equals(java.lang.Object rhs)
+    public boolean equals(Object rhs)
     {
         if(this == rhs)
         {

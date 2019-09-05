@@ -15,7 +15,7 @@
 
 package helper;
 
-public class PreferenceRequest implements java.lang.Cloneable,
+public class PreferenceRequest implements Cloneable,
                                           java.io.Serializable
 {
     public String username;
@@ -37,7 +37,7 @@ public class PreferenceRequest implements java.lang.Cloneable,
         this.value = value;
     }
 
-    public boolean equals(java.lang.Object rhs)
+    public boolean equals(Object rhs)
     {
         if(this == rhs)
         {

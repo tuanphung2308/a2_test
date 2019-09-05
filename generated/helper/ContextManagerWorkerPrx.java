@@ -99,12 +99,12 @@ public interface ContextManagerWorkerPrx extends com.zeroc.Ice.ObjectPrx
         return _iceI_searchInfoAsync(item, context, true).waitForResponse();
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.String> searchInfoAsync(String item)
+    default java.util.concurrent.CompletableFuture<String> searchInfoAsync(String item)
     {
         return _iceI_searchInfoAsync(item, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.String> searchInfoAsync(String item, java.util.Map<String, String> context)
+    default java.util.concurrent.CompletableFuture<String> searchInfoAsync(String item, java.util.Map<String, String> context)
     {
         return _iceI_searchInfoAsync(item, context, false);
     }
@@ -116,9 +116,9 @@ public interface ContextManagerWorkerPrx extends com.zeroc.Ice.ObjectPrx
      * @param sync -
      * @return -
      **/
-    default com.zeroc.IceInternal.OutgoingAsync<java.lang.String> _iceI_searchInfoAsync(String iceP_item, java.util.Map<String, String> context, boolean sync)
+    default com.zeroc.IceInternal.OutgoingAsync<String> _iceI_searchInfoAsync(String iceP_item, java.util.Map<String, String> context, boolean sync)
     {
-        com.zeroc.IceInternal.OutgoingAsync<java.lang.String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "searchInfo", null, sync, null);
+        com.zeroc.IceInternal.OutgoingAsync<String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "searchInfo", null, sync, null);
         f.invoke(true, context, null, ostr -> {
                      ostr.writeString(iceP_item);
                  }, istr -> {
