@@ -20,10 +20,15 @@ public class SensorTest {
     private String sensorType;
     private LinkedHashMap linkedHashMap;
 
-    public SensorTest(String p1, String p2, LinkedHashMap p3) {
+//    public SensorTest(String p1, String p2, LinkedHashMap p3) {
+//        sensorUsername = p1;
+//        sensorType = p2;
+//        p3 = linkedHashMap;
+//    }
+
+    public SensorTest(String p1, String p2) {
         sensorUsername = p1;
         sensorType = p2;
-        p3 = linkedHashMap;
     }
     // creates the test data
     @Parameters
