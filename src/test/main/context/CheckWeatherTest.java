@@ -1,7 +1,10 @@
 package test.main.context;
 
 import com.zeroc.Ice.Current;
+<<<<<<< HEAD
+=======
 import helper.User;
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
 import main.ContextManager;
 import main.PreferenceRepository;
 import org.junit.Before;
@@ -15,6 +18,10 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedHashMap;
 
+<<<<<<< HEAD
+//@RunWith(Parameterized.class)
+=======
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
 public class CheckWeatherTest {
     public String username;
     public LinkedHashMap<String, User> expected;
@@ -38,8 +45,22 @@ public class CheckWeatherTest {
 
     }
 
+<<<<<<< HEAD
+        ContextManager.ContextManagerWorkerI contextManagerWorkerI = new ContextManager.ContextManagerWorkerI();
+        contextManagerWorkerI.addUser("Jack", new Current());
+
+//        Field field = (ContextManager.class).getDeclaredField("cityInfo");
+//        field.setAccessible(true);
+//        field.set(null, readCityInfoMethod.invoke(null));
+    }
+
+    @Test
+    public void testCheckWeather() {
+        
+=======
     @Test
     public void testCheckWeather() throws Exception{
 
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
     }
 }
