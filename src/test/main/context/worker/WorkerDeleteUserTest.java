@@ -1,4 +1,4 @@
-package test.main.context;
+package test.main.context.worker;
 
 import com.zeroc.Ice.Current;
 import helper.User;
@@ -14,15 +14,16 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedHashMap;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(Parameterized.class)
-public class WorkerAddUserTest {
+public class WorkerDeleteUserTest {
     public String username;
     public LinkedHashMap<String, User> expected;
+    private ContextManager.ContextManagerWorkerI contextManagerWorkerI = new ContextManager.ContextManagerWorkerI();
 
-    public WorkerAddUserTest(String username, LinkedHashMap<String, User> expected) {
+    public WorkerDeleteUserTest(String username, LinkedHashMap<String, User> expected) {
         this.username = username;
         this.expected = expected;
     }
@@ -49,16 +50,17 @@ public class WorkerAddUserTest {
         Field weatherField = (ContextManager.class).getDeclaredField("currentWeather");
         weatherField.setAccessible(true);
         weatherField.set(null, 0);
+        contextManagerWorkerI.addUser("Jack", new Current());
+        contextManagerWorkerI.addUser("David", new Current());
 
-        ContextManager.ContextManagerWorkerI contextManagerWorkerI = new ContextManager.ContextManagerWorkerI();
-        contextManagerWorkerI.addUser(username, new Current());
+        contextManagerWorkerI.deleteUser(username, new Current());
     }
 
     @Test
-    public void testAddUser() throws Exception{
+    public void testDeleteUser() throws Exception{
         Field field = (ContextManager.class).getDeclaredField("users");
         field.setAccessible(true);
         LinkedHashMap<String, User> users = (LinkedHashMap<String, User>) field.get(null);
-        assertTrue(users.containsKey(username));
+        assertFalse(users.containsKey(username));
     }
 }
