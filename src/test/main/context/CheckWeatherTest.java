@@ -1,30 +1,45 @@
 package test.main.context;
 
+import com.zeroc.Ice.Current;
+import helper.User;
 import main.ContextManager;
+import main.PreferenceRepository;
 import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.LinkedHashMap;
 
-@RunWith(Parameterized.class)
 public class CheckWeatherTest {
+    public String username;
+    public LinkedHashMap<String, User> expected;
+
+    public CheckWeatherTest(String username, LinkedHashMap<String, User> expected) {
+        this.username = username;
+        this.expected = expected;
+    }
+
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+        Object[][] data = new Object[][] {
+                {"Jack", null},
+                {"David", null}
+        };
+        return Arrays.asList(data);
+    }
+
     @Before
     public void before() throws Exception {
-        Field communicatorField = (ContextManager.class).getDeclaredField("communicator");
-        communicatorField.setAccessible(true);
-        communicatorField.set(null, com.zeroc.Ice.Util.initialize());
 
-        Method iniPreferenceWorker = (ContextManager.class).getDeclaredMethod("iniPreferenceWorker");
-        iniPreferenceWorker.setAccessible(true);
-        iniPreferenceWorker.invoke(null);
+    }
 
-        Method readCityInfoMethod = (ContextManager.class).getDeclaredMethod("readCityInfo");
-        readCityInfoMethod.setAccessible(true);
+    @Test
+    public void testCheckWeather() throws Exception{
 
-        Field field = (ContextManager.class).getDeclaredField("cityInfo");
-        field.setAccessible(true);
-        field.set(null, readCityInfoMethod.invoke(null));
     }
 }
