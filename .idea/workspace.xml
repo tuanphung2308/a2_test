@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068d9950-42a7-4b7e-b486-755c5081c767" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/test/main/allSensors/AllSensorsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -64,6 +65,15 @@
       <change beforePath="$PROJECT_DIR$/src/test/main/context/CheckWeatherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/context/CheckWeatherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather_alarms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weather_alarms.txt" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/test/main/context/WorkerAddUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/context/WorkerDeleteUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/context/WorkerSearchItemsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/support/preference/PreferenceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main/context/CheckWeatherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/context/CheckWeatherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main/context/ContextManagerWorkerITest.java" beforeDir="false" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -79,6 +89,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/generated/helper/_ContextManagerWorkerPrxI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -92,10 +103,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="130" column="31" lean-forward="true" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+              <folding>
+                <element signature="method#report#0;class#MonitorI#0;class#ContextManager#0" />
+                <element signature="method#readCityInfo#0;class#ContextManager#0" />
+                <element signature="method#getLocationsByService#0;class#ContextManager#0" />
+                <element signature="method#checkTempReached#0;class#ContextManager#0" />
+                <element signature="method#calculateapoThreshhold#0;class#ContextManager#0" />
+              </folding>
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generated/helper/_LocationWorkerPrxI.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,20 +135,35 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/main/context/WorkerSearchItemsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/generated/helper/_PreferenceWorkerPrxI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoInitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/generated/helper/_WeatherAlarmWorkerPrxI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -167,6 +207,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/main/context/CheckWeatherTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
             </state>
           </provider>
         </entry>
@@ -182,9 +231,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>ThreshHold</find>
       <find>hash</find>
       <find>get</find>
+=======
+      <find>currentw</find>
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,10 +251,17 @@
         <option value="$PROJECT_DIR$/src/test/support/preference/PreferenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/support/preference/suite/ToStringTest.java" />
         <option value="$PROJECT_DIR$/src/test/main/context/CheckWeatherTest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/support/preference/suite/UserNameTest.java" />
         <option value="$PROJECT_DIR$/src/test/main/context/LocationsByServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/main/allSensors/AllSensorsTest.java" />
         <option value="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" />
+=======
+        <option value="$PROJECT_DIR$/src/test/main/context/ContextManagerWorkerITest.java" />
+        <option value="$PROJECT_DIR$/src/test/main/context/WorkerAddUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/main/context/WorkerDeleteUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/main/context/WorkerSearchItemsTest.java" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       </list>
     </option>
   </component>
@@ -219,8 +279,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,6 +322,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+              <item name="suite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
@@ -325,8 +425,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+=======
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.main.context" />
+    </key>
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,6 +449,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.HandleUserInputTest.testRun">
     <configuration name="AllSensorsTest.testStop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
@@ -353,11 +463,9 @@
       <option name="MAIN_CLASS_NAME" value="test.main.allSensors.AllSensorsTest" />
       <option name="METHOD_NAME" value="testStop" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CityInfoTest.testReadCityInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="JUnit.WorkerDeleteUserTest.testDeleteUser">
+    <configuration name="AQIThreshHoldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -366,13 +474,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.main.context" />
-      <option name="MAIN_CLASS_NAME" value="test.main.context.CityInfoTest" />
-      <option name="METHOD_NAME" value="testReadCityInfo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="test.main.context.AQIThreshHoldTest" />
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="CityInfoTest.testReadCityInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="CheckWeatherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.context" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="test.main.context.CityInfoTest" />
+      <option name="METHOD_NAME" value="testReadCityInfo" />
+      <option name="TEST_OBJECT" value="method" />
+=======
+      <option name="MAIN_CLASS_NAME" value="test.main.context.CheckWeatherTest" />
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="HandleUserInputTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
@@ -384,11 +518,25 @@
       <option name="PACKAGE_NAME" value="test.support" />
       <option name="MAIN_CLASS_NAME" value="test.support.HandleUserInputTest" />
       <option name="METHOD_NAME" value="testHashCode" />
+=======
+    <configuration name="CheckWeatherTest.testCheckWeather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.context" />
+      <option name="MAIN_CLASS_NAME" value="test.main.context.CheckWeatherTest" />
+      <option name="METHOD_NAME" value="testCheckWeather" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="HandleUserInputTest.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
@@ -400,11 +548,25 @@
       <option name="PACKAGE_NAME" value="test.support" />
       <option name="MAIN_CLASS_NAME" value="test.support.HandleUserInputTest" />
       <option name="METHOD_NAME" value="testRun" />
+=======
+    <configuration name="WorkerAddUserTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.context" />
+      <option name="MAIN_CLASS_NAME" value="test.main.context.WorkerAddUserTest" />
+      <option name="METHOD_NAME" value="testAddUser" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="PrefWorkerTest.testGetUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
@@ -416,6 +578,19 @@
       <option name="PACKAGE_NAME" value="test.main.preference.suite.worker" />
       <option name="MAIN_CLASS_NAME" value="test.main.preference.suite.worker.PrefWorkerTest" />
       <option name="METHOD_NAME" value="testGetUserInfo" />
+=======
+    <configuration name="WorkerDeleteUserTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main.context" />
+      <option name="MAIN_CLASS_NAME" value="test.main.context.WorkerDeleteUserTest" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -425,6 +600,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="JUnit.CityInfoTest.testReadCityInfo" />
       <item itemvalue="JUnit.AllSensorsTest.testStop" />
       <item itemvalue="JUnit.PrefWorkerTest.testGetUserInfo" />
@@ -438,6 +614,22 @@
         <item itemvalue="JUnit.PrefWorkerTest.testGetUserInfo" />
         <item itemvalue="JUnit.AllSensorsTest.testStop" />
         <item itemvalue="JUnit.CityInfoTest.testReadCityInfo" />
+=======
+      <item itemvalue="JUnit.CheckWeatherTest" />
+      <item itemvalue="Multirun.No" />
+      <item itemvalue="JUnit.CheckWeatherTest.testCheckWeather" />
+      <item itemvalue="JUnit.AQIThreshHoldTest" />
+      <item itemvalue="JUnit.WorkerAddUserTest.testAddUser" />
+      <item itemvalue="JUnit.WorkerDeleteUserTest.testDeleteUser" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WorkerDeleteUserTest.testDeleteUser" />
+        <item itemvalue="JUnit.WorkerAddUserTest.testAddUser" />
+        <item itemvalue="JUnit.AQIThreshHoldTest" />
+        <item itemvalue="JUnit.CheckWeatherTest" />
+        <item itemvalue="JUnit.CheckWeatherTest.testCheckWeather" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       </list>
     </recent_temporary>
   </component>
@@ -457,6 +649,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="HandleUserInputTest_testRun - 2019.09.06 at 21h 12m 29s.xml">
       <configuration name="HandleUserInputTest.testRun" configurationId="JUnit" />
     </history-entry>
@@ -490,12 +683,51 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="17460000" />
+=======
+    <history-entry file="AQIThreshHoldTest - 2019.09.06 at 10h 32m 13s.xml">
+      <configuration name="AQIThreshHoldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContextManagerWorkerITest_testAddUser - 2019.09.06 at 11h 25m 04s.xml">
+      <configuration name="ContextManagerWorkerITest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContextManagerWorkerITest_testAddUser - 2019.09.06 at 11h 26m 51s.xml">
+      <configuration name="ContextManagerWorkerITest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContextManagerWorkerITest_testAddUser - 2019.09.06 at 11h 30m 35s.xml">
+      <configuration name="ContextManagerWorkerITest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContextManagerWorkerITest_testAddUser - 2019.09.06 at 11h 31m 28s.xml">
+      <configuration name="ContextManagerWorkerITest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContextManagerWorkerITest_testAddUser - 2019.09.06 at 11h 41m 56s.xml">
+      <configuration name="ContextManagerWorkerITest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContextManagerWorkerITest_testAddUser - 2019.09.06 at 11h 42m 00s.xml">
+      <configuration name="ContextManagerWorkerITest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContextManagerWorkerITest_testAddUser - 2019.09.06 at 11h 44m 14s.xml">
+      <configuration name="ContextManagerWorkerITest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerAddUserTest_testAddUser - 2019.09.06 at 11h 47m 37s.xml">
+      <configuration name="WorkerAddUserTest.testAddUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerDeleteUserTest_testDeleteUser - 2019.09.06 at 11h 47m 52s.xml">
+      <configuration name="WorkerDeleteUserTest.testDeleteUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9628000" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="133" y="23" width="1312" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496063" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -504,7 +736,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287483" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,6 +868,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/support/sensor/SensorSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -640,6 +877,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/SensorTest.java">
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="320" column="35" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="35" />
@@ -657,6 +897,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/main/context/AQIThreshHoldTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -686,6 +927,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/main/context/CityInfoTest.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/support/Preference.java">
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="80" column="8" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="95" />
@@ -762,6 +1006,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/support/sensor/suite/UsernameAndTypeSensorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -878,9 +1123,175 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-203">
           <caret line="24" column="34" lean-forward="true" selection-end-line="75" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/CheckTempReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/EnviroAPPUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/support/preference/PreferenceSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/support/preference/suite/ToStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+>>>>>>> b57de188ed89968dbb7f10350a863ef3ac8bc70d
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/SensorSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/PreferenceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/preference/PrefRepoSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/suite/LocationSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/AQIThreshHoldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/CheckWeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/preference/PrefWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/suite/UsernameAndTypeSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/suite/TemperatureSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/UserClockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoInitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/WorkerDeleteUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/WorkerAddUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/CityInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="130" column="31" lean-forward="true" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+          <folding>
+            <element signature="method#report#0;class#MonitorI#0;class#ContextManager#0" />
+            <element signature="method#readCityInfo#0;class#ContextManager#0" />
+            <element signature="method#getLocationsByService#0;class#ContextManager#0" />
+            <element signature="method#checkTempReached#0;class#ContextManager#0" />
+            <element signature="method#calculateapoThreshhold#0;class#ContextManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/WorkerSearchItemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
         </state>
       </provider>
     </entry>
