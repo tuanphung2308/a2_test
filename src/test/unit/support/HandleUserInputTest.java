@@ -1,6 +1,5 @@
 package test.unit.support;
 
-import javafx.beans.binding.When;
 import org.junit.Test;
 import support.HandleUserInput;
 

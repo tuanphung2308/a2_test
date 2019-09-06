@@ -2,43 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/main/ContextManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/ContextManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/EnviroAPPUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/EnviroAPPUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/LocationServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/PreferenceRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/PreferenceRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/WeatherAlarmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/allSensors/AllSensorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/AQIThreshHoldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/CheckApoReachedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/CheckApoReachedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/CheckTempReachedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/CityInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/CityInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/LocationsByServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/UserClockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/UserClockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/worker/WorkerAddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerAddUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/worker/WorkerDeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerDeleteUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/worker/WorkerSearchInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/context/worker/WorkerSearchItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchItemsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/PrefRepoSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/PrefRepoSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/PrefWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/PrefWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoAPOSuggestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoAPOSuggestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoInitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoInitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoTempSuggestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoTempSuggestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoWeatherSuggestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoWeatherSuggestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main/preference/suite/worker/PrefWorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/LocationDetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/LocationDetailsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/preference/PreferenceSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/preference/PreferenceSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/preference/PreferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/preference/PreferenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/MedicalConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/preference/suite/MedicalConditionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/SuggestionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/preference/suite/SuggestionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/ToStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/preference/suite/ToStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/preference/suite/UserNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/preference/suite/UserNameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/SensorSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/SensorSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/SensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/SensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/AQISensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/AQISensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/LocationSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/LocationSensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/TemperatureSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/TemperatureSensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/support/sensor/suite/UsernameAndTypeSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/UsernameAndTypeSensorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/Stepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/all_sensor.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/context_pref.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/WeatherAlarmsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefRepoSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoAPOSuggestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoInitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoTempSuggestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoWeatherSuggestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/HandleUserInputTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/MedicalConditionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/SuggestionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/ToStringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/UserNameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/AQISensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/LocationSensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/TemperatureSensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/UsernameAndTypeSensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +54,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -88,9 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WorkerSearchInfoTest.testSearchItems">
-    <configuration name="LocationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.LocationServer" />
+  <component name="RunManager" selected="Application.EnviroAPPUI">
+    <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -102,66 +96,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AQIThreshHoldTest.testThreshHold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.unit.main.context.worker.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.unit.main.context" />
-      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.AQIThreshHoldTest" />
-      <option name="METHOD_NAME" value="testThreshHold" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerDeleteUserTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: context_pref" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="csse4004" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: context_pref" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.unit.main.context.worker.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.unit.main.context.worker" />
-      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.worker.WorkerDeleteUserTest" />
-      <option name="METHOD_NAME" value="testDeleteUser" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerSearchInfoTest.testSearchItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Today is or is not Friday" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="csse4004" />
+      <option name="NAME_FILTER" value="^Today is or is not Friday$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Today is or is not Friday$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Today is or is not Friday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.unit.main.context.worker.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.unit.main.context.worker" />
-      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.worker.WorkerSearchInfoTest" />
-      <option name="METHOD_NAME" value="testSearchItems" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerSearchItemsTest.testSearchItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User log in" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="csse4004" />
+      <option name="NAME_FILTER" value="^User log in$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User log in$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User log in" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.unit.main.context.worker.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.unit.main.context.worker" />
-      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.worker.WorkerSearchItemsTest" />
-      <option name="METHOD_NAME" value="testSearchItems" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,20 +169,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LocationServer" />
-      <item itemvalue="JUnit.WorkerDeleteUserTest.testDeleteUser" />
-      <item itemvalue="JUnit.AQIThreshHoldTest.testThreshHold" />
-      <item itemvalue="JUnit.WorkerSearchItemsTest.testSearchItems" />
-      <item itemvalue="JUnit.WorkerSearchInfoTest.testSearchItems" />
+      <item itemvalue="Cucumber java.Feature: context_pref" />
+      <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
+      <item itemvalue="Cucumber java.Scenario: User log in" />
       <item itemvalue="Multirun.No" />
+      <item itemvalue="Application.ContextManager" />
+      <item itemvalue="Application.EnviroAPPUI" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WorkerSearchInfoTest.testSearchItems" />
-        <item itemvalue="JUnit.WorkerSearchItemsTest.testSearchItems" />
-        <item itemvalue="JUnit.AQIThreshHoldTest.testThreshHold" />
-        <item itemvalue="JUnit.WorkerDeleteUserTest.testDeleteUser" />
-        <item itemvalue="Application.LocationServer" />
+        <item itemvalue="Application.EnviroAPPUI" />
+        <item itemvalue="Application.ContextManager" />
+        <item itemvalue="Cucumber java.Scenario: User log in" />
+        <item itemvalue="Cucumber java.Feature: context_pref" />
+        <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567781506762</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test categorized">
+      <created>1567781579091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567781579091</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +229,8 @@
     <MESSAGE value="Finished context" />
     <MESSAGE value="Finished context&#10;Merge" />
     <MESSAGE value="- Remove unused files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Remove unused files" />
+    <MESSAGE value="Test categorized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test categorized" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,6 +244,11 @@
           <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchInfoTest.java</url>
           <line>74</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/integration/Stepdefs.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -55,9 +55,4 @@ public class PrefWorkerTest {
         assertEquals("tempReached", false, user.tempReached);
         assertEquals("Sensor Data", null, user.sensorData);
     }
-
-    @Test
-    public void testGetPreference() {
-        //TODO:
-    }
 }
