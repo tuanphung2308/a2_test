@@ -1,15 +1,26 @@
 package test.support; 
 
-import org.junit.Test; 
+import javafx.beans.binding.When;
+import org.junit.Test;
 import org.junit.Before; 
-import org.junit.After; 
+import org.junit.After;
+import sun.applet.Main;
+import support.HandleUserInput;
+
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.util.Scanner;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class HandleUserInputTest { 
 
 //@Before
 //public void before() throws Exception {
-//}
 //
+//}
+
 //@After
 //public void after() throws Exception {
 //}
@@ -20,19 +31,25 @@ public class HandleUserInputTest {
 * 
 */ 
 @Test
-public void testRun() throws Exception { 
-    
-} 
+public void testRun() throws Exception {
+    String input = "1";
+    InputStream in = new ByteArrayInputStream(input.getBytes());
+    System.setIn(in);
+    assertEquals("1", Character.toString((char) in.read()));
+}
 
-/** 
+    /**
 * 
 * Method: hashCode() 
 * 
 */ 
-//@Test
-//public void testHashCode() throws Exception {
-////TODO: Test goes here...
-//}
+@Test
+public void testHashCode() throws Exception {
+//TODO: Test goes here...
+    HandleUserInput handleUserInput = new HandleUserInput();
+    Integer expected = 580024961;
+    assertEquals((long)expected,(long)handleUserInput.hashCode());
+}
 //
 ///**
 //*
