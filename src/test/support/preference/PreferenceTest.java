@@ -9,9 +9,10 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import support.Preference;
 
+import java.util.Arrays;
 import java.util.List;
 
-@RunWith(Parameterized.class)
+//@RunWith(Parameterized.class)
 public class PreferenceTest {
     private String name;
     private Integer medicalCondition;
@@ -21,10 +22,5 @@ public class PreferenceTest {
         this.name = name;
         this.medicalCondition = medicalCondition;
         this.suggestions = suggestions;
-    }
-
-    @Test
-    public void testToString() throws Exception {
-
     }
 }
