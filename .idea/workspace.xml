@@ -140,12 +140,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WorkerDeleteUserTest.testDeleteUser" />
-      <item itemvalue="Multirun.No" />
       <item itemvalue="Application.LocationServer" />
+      <item itemvalue="JUnit.WorkerDeleteUserTest.testDeleteUser" />
       <item itemvalue="JUnit.AQIThreshHoldTest.testThreshHold" />
       <item itemvalue="JUnit.WorkerSearchItemsTest.testSearchItems" />
       <item itemvalue="JUnit.WorkerSearchInfoTest.testSearchItems" />
+      <item itemvalue="Multirun.No" />
     </list>
     <recent_temporary>
       <list>
