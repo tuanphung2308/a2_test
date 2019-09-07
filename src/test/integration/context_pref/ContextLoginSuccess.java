@@ -1,4 +1,4 @@
-package test.integration;
+package test.integration.context_pref;
 
 import com.zeroc.Ice.Current;
 import helper.User;
@@ -21,7 +21,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class ContextPref {
+public class ContextLoginSuccess {
     private String username;
     private String actualAnswer;
     PreferenceRepository preferenceRepository = new PreferenceRepository();

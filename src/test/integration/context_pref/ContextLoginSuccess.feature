@@ -12,3 +12,17 @@ Feature: Login into the system
       | "Jack"  | 2    | when 20 suggest shops,when 30 suggest pool,when APO suggest bowling,when weather suggest cinema |
       | "David" | 3    | when 16 suggest pool,when APO suggest cinema,when weather suggest shops                         |
 
+  Scenario Outline: User not exists
+    Given username is <user>
+    When the Context Manager passes the username to the Preference Repo
+    Then the program should return a error not found
+
+    Examples:
+      | user                                   |
+      | ""                                     |
+      | "qweopqwope"                           |
+      | " 12312321"                            |
+      | "☾ ✙ ✚ ✛ ✜ ✝ ✞ ✟ † ⊹ ‡ ♁ ♆ ❖ ♅ ✠ ✡ ✢ " |
+
+
+
