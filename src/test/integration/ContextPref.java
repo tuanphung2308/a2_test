@@ -21,7 +21,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class Stepdefs {
+public class ContextPref {
     private String username;
     private String actualAnswer;
     PreferenceRepository preferenceRepository = new PreferenceRepository();
