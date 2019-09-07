@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/integration/Stepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/all_sensor.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/context_pref.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/WeatherAlarmsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefRepoSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoAPOSuggestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoInitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoTempSuggestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoWeatherSuggestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/HandleUserInputTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/MedicalConditionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/SuggestionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/ToStringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/UserNameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/AQISensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/LocationSensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/TemperatureSensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/UsernameAndTypeSensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.main.context.worker" />
+      <recent name="test.main.context" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EnviroAPPUI">
+    <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: context_pref" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="csse4004" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: context_pref" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Today is or is not Friday" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="csse4004" />
+      <option name="NAME_FILTER" value="^Today is or is not Friday$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Today is or is not Friday$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Today is or is not Friday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User log in" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="csse4004" />
+      <option name="NAME_FILTER" value="^User log in$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User log in$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User log in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: context_pref" />
+      <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
+      <item itemvalue="Cucumber java.Scenario: User log in" />
+      <item itemvalue="Multirun.No" />
+      <item itemvalue="Application.ContextManager" />
+      <item itemvalue="Application.EnviroAPPUI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EnviroAPPUI" />
+        <item itemvalue="Application.ContextManager" />
+        <item itemvalue="Cucumber java.Scenario: User log in" />
+        <item itemvalue="Cucumber java.Feature: context_pref" />
+        <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="068d9950-42a7-4b7e-b486-755c5081c767" name="Default Changelist" comment="" />
+      <created>1567734679402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567734679402</updated>
+      <workItem from="1567734683342" duration="3559000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finished context&#10;Merge">
+      <created>1567781449298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567781449298</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Remove unused files">
+      <created>1567781506762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567781506762</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test categorized">
+      <created>1567781579091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567781579091</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished context" />
+    <MESSAGE value="Finished context&#10;Merge" />
+    <MESSAGE value="- Remove unused files" />
+    <MESSAGE value="Test categorized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test categorized" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchItemsTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchInfoTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/integration/Stepdefs.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
