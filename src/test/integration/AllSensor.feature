@@ -7,5 +7,5 @@ Feature: All Sensor
     Then the value should be obtained correctly like location is <location> and temperature is <temp> and aqi is <aqi>
     Examples:
       | user   | location | temperature | aqi
-      | "Jack" | "A"      | 10          | 200
+      | "Jack123" | "A"      | 10          | 200
 
