@@ -1,4 +1,4 @@
-package test.integration;
+package test.integration.context_sensor;
 
 import helper.SensorData;
 import helper.User;
