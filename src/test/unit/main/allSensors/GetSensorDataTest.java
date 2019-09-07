@@ -55,8 +55,5 @@ public class GetSensorDataTest {
         }
         catch(NoSuchMethodException e) {
         }
-
-//        List<String> results = (List<String>) method.invoke(null, service);
-//        TestCase.assertEquals("Should be equal", expectedResults, results);
     }
 }
