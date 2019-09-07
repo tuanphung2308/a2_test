@@ -1,8 +1,5 @@
 package test.integration;
 
-import com.zeroc.Ice.Communicator;
-import com.zeroc.Ice.ObjectPrx;
-import helper.PreferenceWorkerPrx;
 import helper.SensorData;
 import helper.User;
 import io.cucumber.java.en.Given;
@@ -11,9 +8,7 @@ import io.cucumber.java.en.When;
 import main.AllSensors;
 import main.ContextManager;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.LinkedHashMap;
 
 import static org.junit.Assert.*;
 
