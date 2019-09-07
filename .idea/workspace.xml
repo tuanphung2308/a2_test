@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/integration/Stepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/integration/all_sensor.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/integration/context_pref.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/WeatherAlarmsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefRepoSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoAPOSuggestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoInitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoTempSuggestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoWeatherSuggestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/HandleUserInputTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/MedicalConditionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/SuggestionsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/ToStringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/UserNameTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/AQISensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/LocationSensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/TemperatureSensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/UsernameAndTypeSensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567781579091</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Integration">
+      <created>1567799086083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567799086083</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +211,8 @@
     <MESSAGE value="Finished context&#10;Merge" />
     <MESSAGE value="- Remove unused files" />
     <MESSAGE value="Test categorized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test categorized" />
+    <MESSAGE value="Integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
