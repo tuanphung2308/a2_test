@@ -94,7 +94,7 @@ public class ContextManager {
 			user.tempReached = tempReached;
 			System.out.println(username + " --Weather: " + currentWeather + "  --Location: " + user.sensorData.location + "  --Location Status:"
 					+ currentLocationStatus + "  --aqi: " + user.sensorData.aqi + "  --apoThreshhold: "
-					+ user.apoThreshhold + "  --Temperature: " + user.sensorData.temperature + "  --Clock: "
+					+ user.apoThreshhold + "  --Temperature: " + user.sensorData.temperature +
 					+ user.clock);
 		}
 	}
