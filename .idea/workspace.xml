@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/integration/Stepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/integration/all_sensor.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/integration/context_pref.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/unit/main/allSensors/TestRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/unit/main/allSensors/TestSetupMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/unit/main/allSensors/TestStop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/WeatherAlarmsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefRepoSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/PrefWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoAPOSuggestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoInitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoTempSuggestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/main/preference/suite/PrefRepoWeatherSuggestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/HandleUserInputTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/PreferenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/MedicalConditionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/SuggestionsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/ToStringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/preference/suite/UserNameTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/SensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/AQISensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/LocationSensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/TemperatureSensorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/support/sensor/suite/UsernameAndTypeSensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/csse4004.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/csse4004.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/integration/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/Stepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +19,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/SensorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-470">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/support/Sensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,8 +92,129 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/integration/Stepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/allSensors/TestSetupMonitor.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/allSensors/TestRun.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/allSensors/TestStop.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="40" />
+    <option name="y" value="20" />
+    <option name="width" value="1315" />
+    <option name="height" value="820" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="allSensors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+              <item name="suite" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -59,6 +222,8 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -82,20 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnviroAPPUI">
-    <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GetSensorDataTest">
     <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
       <module name="csse4004" />
@@ -109,58 +261,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: context_pref" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="AllSensorsTest.testStop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: context_pref" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.main.allSensors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main.allSensors" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.allSensors.AllSensorsTest" />
+      <option name="METHOD_NAME" value="testStop" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Today is or is not Friday" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="GetSensorDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Today is or is not Friday$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Today is or is not Friday$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Today is or is not Friday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.main.allSensors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main.allSensors" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.allSensors.GetSensorDataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User log in" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="GetSensorDataTest.testGetSensorData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^User log in$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User log in$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User log in" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.main.allSensors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main.allSensors" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.allSensors.GetSensorDataTest" />
+      <option name="METHOD_NAME" value="testGetSensorData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.unit.main.allSensors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main.allSensors" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.allSensors.TestStop" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,20 +327,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: context_pref" />
-      <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
-      <item itemvalue="Cucumber java.Scenario: User log in" />
-      <item itemvalue="Multirun.No" />
-      <item itemvalue="Application.ContextManager" />
       <item itemvalue="Application.EnviroAPPUI" />
+      <item itemvalue="JUnit.AllSensorsTest.testStop" />
+      <item itemvalue="JUnit.TestStop" />
+      <item itemvalue="JUnit.GetSensorDataTest.testGetSensorData" />
+      <item itemvalue="JUnit.GetSensorDataTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetSensorDataTest" />
+        <item itemvalue="JUnit.GetSensorDataTest.testGetSensorData" />
+        <item itemvalue="JUnit.TestStop" />
+        <item itemvalue="JUnit.AllSensorsTest.testStop" />
         <item itemvalue="Application.EnviroAPPUI" />
-        <item itemvalue="Application.ContextManager" />
-        <item itemvalue="Cucumber java.Scenario: User log in" />
-        <item itemvalue="Cucumber java.Feature: context_pref" />
-        <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +348,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="068d9950-42a7-4b7e-b486-755c5081c767" name="Default Changelist" comment="" />
+      <changelist id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="" />
       <created>1567734679402</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567734679402</updated>
       <workItem from="1567734683342" duration="3559000" />
+      <workItem from="1567829474935" duration="5845000" />
     </task>
     <task id="LOCAL-00001" summary="Finished context&#10;Merge">
       <created>1567781449298</created>
@@ -222,6 +380,76 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AllSensorsTest_testStop - 2019.09.07 at 13h 55m 40s.xml">
+      <configuration name="AllSensorsTest.testStop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllSensorsTest_testStop - 2019.09.07 at 13h 56m 18s.xml">
+      <configuration name="AllSensorsTest.testStop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllSensorsTest_testStop - 2019.09.07 at 13h 57m 12s.xml">
+      <configuration name="AllSensorsTest.testStop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStop - 2019.09.07 at 14h 02m 42s.xml">
+      <configuration name="TestStop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetSensorDataTest_testGetSensorData - 2019.09.07 at 14h 09m 21s.xml">
+      <configuration name="GetSensorDataTest.testGetSensorData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetSensorDataTest_testGetSensorData - 2019.09.07 at 14h 37m 43s.xml">
+      <configuration name="GetSensorDataTest.testGetSensorData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetSensorDataTest_testGetSensorData - 2019.09.07 at 14h 38m 31s.xml">
+      <configuration name="GetSensorDataTest.testGetSensorData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetSensorDataTest_testGetSensorData - 2019.09.07 at 14h 41m 59s.xml">
+      <configuration name="GetSensorDataTest.testGetSensorData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetSensorDataTest_testGetSensorData - 2019.09.07 at 14h 42m 30s.xml">
+      <configuration name="GetSensorDataTest.testGetSensorData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetSensorDataTest - 2019.09.07 at 14h 42m 35s.xml">
+      <configuration name="GetSensorDataTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5845000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -238,19 +466,336 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchItemsTest.java</url>
           <line>74</line>
+          <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchInfoTest.java</url>
           <line>74</line>
+          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/integration/Stepdefs.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/src/main/ContextManager.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JackAQI">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LocationServerConfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preference">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_alarms.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JackLocation">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JackTemperature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DavidAQI">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DavidLocation">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DavidTemperature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="28" column="10" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/EnviroAPPUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1895">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerAddUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ice-3.7.2.jar!/com/zeroc/Ice/Communicator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ice-3.7.2.jar!/com/zeroc/Ice/CommunicatorI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2565">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/LocationDetailsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/SensorSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/LocationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/HandleUserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/TestRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/TestStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/TestSetupMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/LocationSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/TemperatureSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/EnviroAPPUITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/ContextManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/UserClockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CityInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/PreferenceRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/PreferenceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/UsernameAndTypeSensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/AQISensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-931">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckApoReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" column="90" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/SensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="422" column="24" selection-start-line="422" selection-start-column="24" selection-end-line="422" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
