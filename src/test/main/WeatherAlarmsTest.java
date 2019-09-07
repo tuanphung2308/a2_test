@@ -87,13 +87,13 @@ try {
 */ 
 @Test
 public void testReadWeatherConditions() throws Exception {
+    WeatherAlarms weatherAlarms = new WeatherAlarms();
 ////TODO: Test goes here...
     Method method = (WeatherAlarms.class).getDeclaredMethod("readWeatherConditions");
     method.setAccessible(true);
     List<Integer> expect = Arrays.asList(0, 1, 2, 3);
-    System.out.println(method.invoke(null));
-//    List<Integer> actual = (List<Integer>) method.invoke(null);
-//    assertEquals(expect, actual);
+    List<Integer> actual = (List<Integer>) method.invoke(weatherAlarms);
+    assertEquals(expect, actual);
 //try {
 //   Method method = WeatherAlarms.getClass().getMethod("readWeatherConditions");
 //   method.setAccessible(true);
