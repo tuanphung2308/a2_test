@@ -93,7 +93,7 @@ public void testReadWeatherConditions() throws Exception {
     method.setAccessible(true);
     List<Integer> expect = Arrays.asList(0, 1, 2, 3);
     List<Integer> actual = (List<Integer>) method.invoke(weatherAlarms);
-    assertEquals(expect, actual);
+    assertEquals("Weather condition read correctly", expect, actual);
 //try {
 //   Method method = WeatherAlarms.getClass().getMethod("readWeatherConditions");
 //   method.setAccessible(true);

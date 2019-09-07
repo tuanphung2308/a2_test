@@ -1,69 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/integration/AllSensor.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/integration/AllSensorSteps.java" afterDir="false" />
+    <list default="true" id="493751d5-c421-4b5b-a619-6284c801a61d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alarm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/Alarm$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/Alarm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/AlarmPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/AlarmPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/Alert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alerter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/Alerter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alerter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/Alerter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/AlerterPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/AlerterPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/ContextManagerWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/ContextManagerWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/ContextManagerWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/LocationWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/LocationWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/LocationWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/Monitor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/MonitorPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/MonitorPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/PreferenceRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/PreferenceWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/PreferenceWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/PreferenceWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/SensorData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/SensorData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorkerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorkerPrx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/WeatherData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_AlarmPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/_AlarmPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_AlerterPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/_AlerterPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_ContextManagerWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/_ContextManagerWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_LocationWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/_LocationWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_MonitorPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/_MonitorPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_PreferenceWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/_PreferenceWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_WeatherAlarmWorkerPrxI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/helper/_WeatherAlarmWorkerPrxI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/AllSensors$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/AllSensors$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/AllSensors.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/AllSensors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/ContextManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$ContextManagerWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/ContextManager$ContextManagerWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$MonitorI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/ContextManager$MonitorI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/ContextManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/EnviroAPPUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI$AlerterI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/EnviroAPPUI$AlerterI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/EnviroAPPUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/LocationServer$LocationWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/LocationServer$LocationWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/LocationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/LocationServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/PreferenceRepository$PreferenceWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/PreferenceRepository$PreferenceWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/WeatherAlarms$WeatherAlarmWorkerI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/WeatherAlarms$WeatherAlarmWorkerI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/WeatherAlarms.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/WeatherAlarms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/HandleUserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/support/HandleUserInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/LocationDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/support/LocationDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/Preference.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/support/Preference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/support/Sensor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/integration/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/ContextPref.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/integration/all_sensor.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/integration/context_pref.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/ContextPref.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +21,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensor.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            <state relative-caret-position="310">
+              <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/ContextPref.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="35" selection-start-line="35" selection-end-line="37" selection-end-column="90" />
+            <state relative-caret-position="299">
+              <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,31 +47,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
+        <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="73" column="22" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensorSteps.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="205">
+              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-380">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,17 +84,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/integration/all_sensor.feature" />
-        <option value="$PROJECT_DIR$/src/test/integration/RunCucumberTest.java" />
-        <option value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
-        <option value="$PROJECT_DIR$/src/test/integration/ContextPref.feature" />
-        <option value="$PROJECT_DIR$/src/test/integration/AllSensor.java" />
-        <option value="$PROJECT_DIR$/src/main/AllSensors.java" />
-        <option value="$PROJECT_DIR$/src/test/integration/AllSensor.feature" />
-        <option value="$PROJECT_DIR$/Preference" />
-        <option value="$PROJECT_DIR$/src/test/integration/AllSensorSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/ContextManager.java" />
+        <option value="$PROJECT_DIR$/src/main/LocationServer.java" />
+        <option value="$PROJECT_DIR$/src/main/WeatherAlarms.java" />
+        <option value="$PROJECT_DIR$/src/test/main/LocationServerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/main/WeatherAlarmsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,106 +107,80 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="slice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="unit" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="allSensors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-              <item name="sensor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-              <item name="sensor" type="462c0819:PsiDirectoryNode" />
-              <item name="suite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,17 +189,17 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test.main.context.worker" />
-      <recent name="test.main.context" />
-    </key>
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,9 +213,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Could sensor get data?">
-    <configuration name="LocationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.LocationServer" />
+  <component name="RunManager" selected="JUnit.LocationServerTest">
+    <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -308,112 +240,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherAlarms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.WeatherAlarms" />
+    <configuration name="LocationServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="test.unit.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.LocationServerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: context_pref" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
-      <option name="GLUE" value="Stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="WeatherAlarmsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: context_pref" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.WeatherAlarmsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Could sensor get data?" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/AllSensor.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="WeatherAlarmsTest.testReadWeatherConditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Could sensor get data\?$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Could sensor get data\?$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Could sensor get data?" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.main" />
+      <option name="MAIN_CLASS_NAME" value="test.main.WeatherAlarmsTest" />
+      <option name="METHOD_NAME" value="testReadWeatherConditions" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User exists" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="csse4004" />
-      <option name="NAME_FILTER" value="^User exists$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User exists$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User exists" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="RunAll" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="WeatherAlarms" type="Application" />
+      <runConfiguration name="PreferenceRepository" type="Application" />
+      <runConfiguration name="LocationServer" type="Application" />
+      <runConfiguration name="ContextManager" type="Application" />
+      <runConfiguration name="EnviroAPPUI" type="Application" />
+      <method v="2" />
     </configuration>
-    <configuration name="Scenario: User exists" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/ContextPref.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="csse4004" />
-      <option name="NAME_FILTER" value="^User exists$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User exists$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User exists" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="No" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+    <configuration default="true" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="WeatherAlarms" type="Application" />
+      <runConfiguration name="PreferenceRepository" type="Application" />
+      <runConfiguration name="LocationServer" type="Application" />
+      <runConfiguration name="ContextManager" type="Application" />
+      <runConfiguration name="EnviroAPPUI" type="Application" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.WeatherAlarms" />
+      <item itemvalue="Application.EnviroAPPUI" />
       <item itemvalue="Application.PreferenceRepository" />
-      <item itemvalue="Application.LocationServer" />
-      <item itemvalue="Cucumber java.Scenario: User exists" />
-      <item itemvalue="Cucumber java.Feature: context_pref" />
-      <item itemvalue="Cucumber java.Scenario: Could sensor get data?" />
-      <item itemvalue="Multirun.No" />
+      <item itemvalue="JUnit.WeatherAlarmsTest.testReadWeatherConditions" />
+      <item itemvalue="Multirun.RunAll" />
+      <item itemvalue="JUnit.WeatherAlarmsTest" />
+      <item itemvalue="JUnit.LocationServerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Could sensor get data?" />
-        <item itemvalue="Cucumber java.Scenario: User exists" />
-        <item itemvalue="Application.LocationServer" />
+        <item itemvalue="JUnit.LocationServerTest" />
+        <item itemvalue="JUnit.WeatherAlarmsTest" />
         <item itemvalue="Application.PreferenceRepository" />
-        <item itemvalue="Application.WeatherAlarms" />
+        <item itemvalue="JUnit.WeatherAlarmsTest.testReadWeatherConditions" />
+        <item itemvalue="Application.EnviroAPPUI" />
       </list>
     </recent_temporary>
   </component>
@@ -422,262 +325,293 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="068d9950-42a7-4b7e-b486-755c5081c767" name="Default Changelist" comment="" />
-      <created>1567734679402</created>
+      <changelist id="493751d5-c421-4b5b-a619-6284c801a61d" name="Default Changelist" comment="" />
+      <created>1567735463353</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567734679402</updated>
-      <workItem from="1567734683342" duration="3559000" />
+      <updated>1567735463353</updated>
+      <workItem from="1567735470512" duration="6989000" />
+      <workItem from="1567775587892" duration="3302000" />
+      <workItem from="1567825156541" duration="3423000" />
     </task>
-    <task id="LOCAL-00001" summary="Finished context&#10;Merge">
-      <created>1567781449298</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1567781449298</updated>
-    </task>
-    <task id="LOCAL-00002" summary="- Remove unused files">
-      <created>1567781506762</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1567781506762</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Test categorized">
-      <created>1567781579091</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1567781579091</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;bin/helper/Alarm$1.class&#10;#&#9;bin/helper/Alarm.class&#10;#&#9;bin/helper/AlarmPrx.class&#10;#&#9;bin/helper/Alert.class&#10;#&#9;bin/helper/Alerter$1.class&#10;#&#9;bin/helper/Alerter.class&#10;#&#9;bin/helper/AlerterPrx.class&#10;#&#9;bin/helper/ContextManagerWorker$1.class&#10;#&#9;bin/helper/ContextManagerWorker.class&#10;#&#9;bin/helper/ContextManagerWorkerPrx.class&#10;#&#9;bin/helper/LocationWorker$1.class&#10;#&#9;bin/helper/LocationWorker.class&#10;#&#9;bin/helper/LocationWorkerPrx.class&#10;#&#9;bin/helper/Monitor$1.class&#10;#&#9;bin/helper/Monitor.class&#10;#&#9;bin/helper/MonitorPrx.class&#10;#&#9;bin/helper/PreferenceRequest.class&#10;#&#9;bin/helper/PreferenceWorker$1.class&#10;#&#9;bin/helper/PreferenceWorker.class&#10;#&#9;bin/helper/PreferenceWorkerPrx.class&#10;#&#9;bin/helper/SensorData.class&#10;#&#9;bin/helper/User.class&#10;#&#9;bin/helper/WeatherAlarmWorker$1.class&#10;#&#9;bin/helper/WeatherAlarmWorker.class&#10;#&#9;bin/helper/WeatherAlarmWorkerPrx.class&#10;#&#9;bin/helper/WeatherData.class&#10;#&#9;bin/helper/_AlarmPrxI.class&#10;#&#9;bin/helper/_AlerterPrxI.class&#10;#&#9;bin/helper/_ContextManagerWorkerPrxI.class&#10;#&#9;bin/helper/_LocationWorkerPrxI.class&#10;#&#9;bin/helper/_MonitorPrxI.class&#10;#&#9;bin/helper/_PreferenceWorkerPrxI.class&#10;#&#9;bin/helper/_WeatherAlarmWorkerPrxI.class&#10;#&#9;bin/main/AllSensors$1.class&#10;#&#9;bin/main/AllSensors.class&#10;#&#9;bin/main/ContextManager$1.class&#10;#&#9;bin/main/ContextManager$ContextManagerWorkerI.class&#10;#&#9;bin/main/ContextManager$MonitorI.class&#10;#&#9;bin/main/ContextManager.class&#10;#&#9;bin/main/EnviroAPPUI$1.class&#10;#&#9;bin/main/EnviroAPPUI$AlerterI.class&#10;#&#9;bin/main/EnviroAPPUI.class&#10;#&#9;bin/main/LocationServer$LocationWorkerI.class&#10;#&#9;bin/main/LocationServer.class&#10;#&#9;bin/main/PreferenceRepository$PreferenceWorkerI.class&#10;#&#9;bin/main/WeatherAlarms$WeatherAlarmWorkerI.class&#10;#&#9;bin/main/WeatherAlarms.class&#10;#&#9;bin/support/HandleUserInput.class&#10;#&#9;bin/support/LocationDetails.class&#10;#&#9;bin/support/Preference.class&#10;#&#9;bin/support/Sensor.class&#10;#&#9;csse4004.iml">
-      <created>1567831436468</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1567831436468</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__User_exists - 2019.09.07 at 12h 19m 08s.xml">
-      <configuration name="Scenario: User exists" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="WeatherAlarmsTest - 2019.09.06 at 20h 57m 54s.xml">
+      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__context_pref - 2019.09.07 at 12h 23m 30s.xml">
-      <configuration name="Feature: context_pref" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="WeatherAlarmsTest - 2019.09.06 at 20h 58m 49s.xml">
+      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__User_exists_(1) - 2019.09.07 at 12h 25m 13s.xml">
-      <configuration name="Scenario: User exists (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CityInfoTest - 2019.09.06 at 21h 02m 00s.xml">
+      <configuration name="CityInfoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__User_exists - 2019.09.07 at 12h 25m 40s.xml">
-      <configuration name="Scenario: User exists" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CityInfoTest - 2019.09.06 at 21h 05m 54s.xml">
+      <configuration name="CityInfoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__User_exists - 2019.09.07 at 12h 26m 00s.xml">
-      <configuration name="Scenario: User exists" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="WeatherAlarmsTest_testReadWeatherConditions - 2019.09.07 at 11h 18m 39s.xml">
+      <configuration name="WeatherAlarmsTest.testReadWeatherConditions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__User_exists - 2019.09.07 at 12h 26m 53s.xml">
-      <configuration name="Scenario: User exists" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="WeatherAlarmsTest - 2019.09.07 at 12h 24m 31s.xml">
+      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_sensor_get_data__(1) - 2019.09.07 at 12h 27m 56s.xml">
-      <configuration name="Scenario: Could sensor get data? (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="LocationServerTest - 2019.09.07 at 12h 25m 27s.xml">
+      <configuration name="LocationServerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_sensor_get_data_ - 2019.09.07 at 12h 28m 32s.xml">
-      <configuration name="Scenario: Could sensor get data?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="LocationServerTest - 2019.09.07 at 12h 29m 13s.xml">
+      <configuration name="LocationServerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_sensor_get_data_ - 2019.09.07 at 12h 31m 17s.xml">
-      <configuration name="Scenario: Could sensor get data?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="WeatherAlarmsTest - 2019.09.07 at 12h 30m 07s.xml">
+      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_sensor_get_data_ - 2019.09.07 at 12h 31m 42s.xml">
-      <configuration name="Scenario: Could sensor get data?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="LocationServerTest - 2019.09.07 at 12h 30m 22s.xml">
+      <configuration name="LocationServerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3689000" />
+    <option name="totallyTimeSpent" value="15738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1990232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287483" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39889959" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287483" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3287483" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3287483" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1990232" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished context" />
-    <MESSAGE value="Finished context&#10;Merge" />
-    <MESSAGE value="- Remove unused files" />
-    <MESSAGE value="Test categorized" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;bin/helper/Alarm$1.class&#10;#&#9;bin/helper/Alarm.class&#10;#&#9;bin/helper/AlarmPrx.class&#10;#&#9;bin/helper/Alert.class&#10;#&#9;bin/helper/Alerter$1.class&#10;#&#9;bin/helper/Alerter.class&#10;#&#9;bin/helper/AlerterPrx.class&#10;#&#9;bin/helper/ContextManagerWorker$1.class&#10;#&#9;bin/helper/ContextManagerWorker.class&#10;#&#9;bin/helper/ContextManagerWorkerPrx.class&#10;#&#9;bin/helper/LocationWorker$1.class&#10;#&#9;bin/helper/LocationWorker.class&#10;#&#9;bin/helper/LocationWorkerPrx.class&#10;#&#9;bin/helper/Monitor$1.class&#10;#&#9;bin/helper/Monitor.class&#10;#&#9;bin/helper/MonitorPrx.class&#10;#&#9;bin/helper/PreferenceRequest.class&#10;#&#9;bin/helper/PreferenceWorker$1.class&#10;#&#9;bin/helper/PreferenceWorker.class&#10;#&#9;bin/helper/PreferenceWorkerPrx.class&#10;#&#9;bin/helper/SensorData.class&#10;#&#9;bin/helper/User.class&#10;#&#9;bin/helper/WeatherAlarmWorker$1.class&#10;#&#9;bin/helper/WeatherAlarmWorker.class&#10;#&#9;bin/helper/WeatherAlarmWorkerPrx.class&#10;#&#9;bin/helper/WeatherData.class&#10;#&#9;bin/helper/_AlarmPrxI.class&#10;#&#9;bin/helper/_AlerterPrxI.class&#10;#&#9;bin/helper/_ContextManagerWorkerPrxI.class&#10;#&#9;bin/helper/_LocationWorkerPrxI.class&#10;#&#9;bin/helper/_MonitorPrxI.class&#10;#&#9;bin/helper/_PreferenceWorkerPrxI.class&#10;#&#9;bin/helper/_WeatherAlarmWorkerPrxI.class&#10;#&#9;bin/main/AllSensors$1.class&#10;#&#9;bin/main/AllSensors.class&#10;#&#9;bin/main/ContextManager$1.class&#10;#&#9;bin/main/ContextManager$ContextManagerWorkerI.class&#10;#&#9;bin/main/ContextManager$MonitorI.class&#10;#&#9;bin/main/ContextManager.class&#10;#&#9;bin/main/EnviroAPPUI$1.class&#10;#&#9;bin/main/EnviroAPPUI$AlerterI.class&#10;#&#9;bin/main/EnviroAPPUI.class&#10;#&#9;bin/main/LocationServer$LocationWorkerI.class&#10;#&#9;bin/main/LocationServer.class&#10;#&#9;bin/main/PreferenceRepository$PreferenceWorkerI.class&#10;#&#9;bin/main/WeatherAlarms$WeatherAlarmWorkerI.class&#10;#&#9;bin/main/WeatherAlarms.class&#10;#&#9;bin/support/HandleUserInput.class&#10;#&#9;bin/support/LocationDetails.class&#10;#&#9;bin/support/Preference.class&#10;#&#9;bin/support/Sensor.class&#10;#&#9;csse4004.iml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;bin/helper/Alarm$1.class&#10;#&#9;bin/helper/Alarm.class&#10;#&#9;bin/helper/AlarmPrx.class&#10;#&#9;bin/helper/Alert.class&#10;#&#9;bin/helper/Alerter$1.class&#10;#&#9;bin/helper/Alerter.class&#10;#&#9;bin/helper/AlerterPrx.class&#10;#&#9;bin/helper/ContextManagerWorker$1.class&#10;#&#9;bin/helper/ContextManagerWorker.class&#10;#&#9;bin/helper/ContextManagerWorkerPrx.class&#10;#&#9;bin/helper/LocationWorker$1.class&#10;#&#9;bin/helper/LocationWorker.class&#10;#&#9;bin/helper/LocationWorkerPrx.class&#10;#&#9;bin/helper/Monitor$1.class&#10;#&#9;bin/helper/Monitor.class&#10;#&#9;bin/helper/MonitorPrx.class&#10;#&#9;bin/helper/PreferenceRequest.class&#10;#&#9;bin/helper/PreferenceWorker$1.class&#10;#&#9;bin/helper/PreferenceWorker.class&#10;#&#9;bin/helper/PreferenceWorkerPrx.class&#10;#&#9;bin/helper/SensorData.class&#10;#&#9;bin/helper/User.class&#10;#&#9;bin/helper/WeatherAlarmWorker$1.class&#10;#&#9;bin/helper/WeatherAlarmWorker.class&#10;#&#9;bin/helper/WeatherAlarmWorkerPrx.class&#10;#&#9;bin/helper/WeatherData.class&#10;#&#9;bin/helper/_AlarmPrxI.class&#10;#&#9;bin/helper/_AlerterPrxI.class&#10;#&#9;bin/helper/_ContextManagerWorkerPrxI.class&#10;#&#9;bin/helper/_LocationWorkerPrxI.class&#10;#&#9;bin/helper/_MonitorPrxI.class&#10;#&#9;bin/helper/_PreferenceWorkerPrxI.class&#10;#&#9;bin/helper/_WeatherAlarmWorkerPrxI.class&#10;#&#9;bin/main/AllSensors$1.class&#10;#&#9;bin/main/AllSensors.class&#10;#&#9;bin/main/ContextManager$1.class&#10;#&#9;bin/main/ContextManager$ContextManagerWorkerI.class&#10;#&#9;bin/main/ContextManager$MonitorI.class&#10;#&#9;bin/main/ContextManager.class&#10;#&#9;bin/main/EnviroAPPUI$1.class&#10;#&#9;bin/main/EnviroAPPUI$AlerterI.class&#10;#&#9;bin/main/EnviroAPPUI.class&#10;#&#9;bin/main/LocationServer$LocationWorkerI.class&#10;#&#9;bin/main/LocationServer.class&#10;#&#9;bin/main/PreferenceRepository$PreferenceWorkerI.class&#10;#&#9;bin/main/WeatherAlarms$WeatherAlarmWorkerI.class&#10;#&#9;bin/main/WeatherAlarms.class&#10;#&#9;bin/support/HandleUserInput.class&#10;#&#9;bin/support/LocationDetails.class&#10;#&#9;bin/support/Preference.class&#10;#&#9;bin/support/Sensor.class&#10;#&#9;csse4004.iml" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchItemsTest.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchInfoTest.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/integration/ContextPref.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/integration/AllSensorSteps.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/AQIThreshHoldTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/main/EnviroAPPUITest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/suite/LocationSensorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/main/preference/suite/PrefRepoAPOSuggestTest.java" />
+    <entry file="file://$PROJECT_DIR$/generated/helper/Alarm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="-443">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/RunCucumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/LocationsByServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/main/AllSensorsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/main/PreferenceRepositoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/main/ContextManagerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/support/preference/PreferenceSuite.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/support/preference/suite/UserNameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/support/preference/suite/SuggestionsTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/AutoCloseable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-138">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensorSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/ContextPref.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/PreferenceRepository.java">
+    <entry file="jar://$PROJECT_DIR$/ice-3.7.2.jar!/com/zeroc/Ice/Communicator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/support/preference/suite/MedicalConditionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/suite/TemperatureSensorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/SensorSuite.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/support/sensor/SensorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/support/Preference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="435">
+          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/support/preference/PreferenceTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="552" column="18" selection-start-line="552" selection-start-column="18" selection-end-line="552" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ice-3.7.2.jar!/com/zeroc/Ice/Current.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1014">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/helper/LocationWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2169">
+          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="229" column="47" selection-start-line="229" selection-start-column="47" selection-end-line="229" selection-end-column="47" />
+        <state relative-caret-position="200">
+          <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
+          <folding>
+            <element signature="e#10555#10556#0" expanded="true" />
+            <element signature="e#10591#10592#0" expanded="true" />
+            <element signature="e#10642#10643#0" expanded="true" />
+            <element signature="e#10679#10680#0" expanded="true" />
+            <element signature="e#10733#10734#0" expanded="true" />
+            <element signature="e#10779#10780#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Preference">
+    <entry file="file://$PROJECT_DIR$/src/main/EnviroAPPUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="91" column="62" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensor.feature">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        <state relative-caret-position="200">
+          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JackTemperature">
+    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/ContextPref.java">
+    <entry file="file://$PROJECT_DIR$/src/test/main/context/CityInfoTest.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/LocationServerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/main/WeatherAlarmsTest.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="35" selection-start-line="35" selection-end-line="37" selection-end-column="90" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensorSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="299">
+          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,6 +666,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>csse4004</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
