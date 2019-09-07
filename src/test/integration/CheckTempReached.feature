@@ -4,13 +4,13 @@ Feature: Check Temperature Reached
   Scenario Outline: Temperature reach threshold?
     Given The username is <user>
     When all sensor is initialized done
-    Then The current temperature is <temperature> reach threshold
+    Then The current temperature is <temperature> reach threshold should be <reached>
 
     Examples:
-      | user   | temperature |
-      | "Jack" | 10  |
-      | "Jack" | 15  |
-      | "Jack" | 20  |
-      | "David" | 10 |
-      | "David" | 15 |
-      | "David" | 20 |
+      | user   | temperature | reached |
+      | "Jack" | 10  | 0 |
+      | "Jack" | 15  | 0 |
+      | "Jack" | 20  | 1 |
+      | "David" | 10 | 0 |
+      | "David" | 15 | 0 |
+      | "David" | 20 | 1 |
