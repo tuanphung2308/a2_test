@@ -1,8 +1,13 @@
 package test.unit.main;
 
-import org.junit.Test; 
+import main.LocationServer;
+import org.junit.Test;
 import org.junit.Before; 
-import org.junit.After; 
+import org.junit.After;
+import static org.junit.Assert.*;
+
+import java.lang.reflect.Method;
+import java.util.LinkedHashMap;
 
 /** 
 * LocationServer Tester. 
@@ -79,17 +84,28 @@ try {
 */ 
 @Test
 public void testReadConfig() throws Exception { 
-//TODO: Test goes here... 
-/* 
+//TODO: Test goes here...
+
+    Method method = (LocationServer.class).getDeclaredMethod("readConfig");
+    method.setAccessible(true);
+    LinkedHashMap<String, String> actual = (LinkedHashMap<String, String>) method.invoke(null);
+    LinkedHashMap<String, String> expect = new LinkedHashMap<>();
+    expect.put("A", "Indoor");
+    expect.put("B", "Indoor");
+    expect.put("C", "Outdoor");
+    expect.put("D", "Outdoor");
+    assertEquals("Location config read correctly", expect, actual);
+
+/*
 try { 
-   Method method = LocationServer.getClass().getMethod("readConfig"); 
+   Method method = LocationServer.getClass().getMethod("readConfig");
    method.setAccessible(true); 
    method.invoke(<Object>, <Parameters>); 
 } catch(NoSuchMethodException e) { 
 } catch(IllegalAccessException e) { 
-} catch(InvocationTargetException e) { 
+} catch(InvocationTargetException e) {
 } 
-*/ 
+*/
 } 
 
 } 

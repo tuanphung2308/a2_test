@@ -8,7 +8,7 @@ Feature: Login into the system
     And medical condition is <cond>
     And personal preference is <pref>
     Examples:
-      | user   | cond | pref |
-      | "Jack" | 2    | when 20 suggest shops,when 30 suggest pool,when APO suggest bowling,when weather suggest cinema |
-      | "David"| 3    | when 16 suggest pool,when APO suggest cinema,when weather suggest shops                          |
+      | user    | cond | pref                                                                                            |
+      | "Jack"  | 2    | when 20 suggest shops,when 30 suggest pool,when APO suggest bowling,when weather suggest cinema |
+      | "David" | 3    | when 16 suggest pool,when APO suggest cinema,when weather suggest shops                         |
 

@@ -1,8 +1,15 @@
 package test.unit.main;
 
+import main.WeatherAlarms;
 import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
+
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.List;
 
 
 /** 
@@ -57,7 +64,7 @@ public void testTerminate() throws Exception {
 * 
 * Method: setupWeatherAlarmWorker(String[] args) 
 * 
-*/ 
+*/
 @Test
 public void testSetupWeatherAlarmWorker() throws Exception { 
 //TODO: Test goes here... 
@@ -78,9 +85,15 @@ try {
 * Method: readWeatherConditions() 
 * 
 */ 
-//@Test
-//public void testReadWeatherConditions() throws Exception {
+@Test
+public void testReadWeatherConditions() throws Exception {
+    WeatherAlarms weatherAlarms = new WeatherAlarms();
 ////TODO: Test goes here...
+    Method method = (WeatherAlarms.class).getDeclaredMethod("readWeatherConditions");
+    method.setAccessible(true);
+    List<Integer> expect = Arrays.asList(0, 1, 2, 3);
+    List<Integer> actual = (List<Integer>) method.invoke(weatherAlarms);
+    assertEquals("Weather condition read correctly", expect, actual);
 //try {
 //   Method method = WeatherAlarms.getClass().getMethod("readWeatherConditions");
 //   method.setAccessible(true);
@@ -89,6 +102,6 @@ try {
 //} catch(IllegalAccessException e) {
 //} catch(InvocationTargetException e) {
 //}
-//}
+}
 
 } 

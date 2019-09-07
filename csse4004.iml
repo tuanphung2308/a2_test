@@ -45,6 +45,14 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="jar_files" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/cucumber-java-4.7.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
