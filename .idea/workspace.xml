@@ -2,60 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493751d5-c421-4b5b-a619-6284c801a61d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alarm$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alarm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/AlarmPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alerter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Alerter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/AlerterPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/ContextManagerWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/LocationWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Monitor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/MonitorPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/PreferenceWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/SensorData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherAlarmWorkerPrx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/WeatherData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_AlarmPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_AlerterPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_ContextManagerWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_LocationWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_MonitorPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_PreferenceWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/helper/_WeatherAlarmWorkerPrxI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/AllSensors$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/AllSensors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$ContextManagerWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager$MonitorI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/ContextManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI$AlerterI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/EnviroAPPUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/LocationServer$LocationWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/LocationServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/PreferenceRepository$PreferenceWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/WeatherAlarms$WeatherAlarmWorkerI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/WeatherAlarms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/HandleUserInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/LocationDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/Preference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/support/Sensor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -85,6 +35,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -94,9 +56,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="-380">
               <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
@@ -115,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/main/WeatherAlarms.java" />
         <option value="$PROJECT_DIR$/src/test/main/LocationServerTest.java" />
         <option value="$PROJECT_DIR$/src/test/main/WeatherAlarmsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" />
       </list>
     </option>
   </component>
@@ -131,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -237,35 +213,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Multirun.RunAll">
-    <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LocationServerTest">
     <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.LocationServer" />
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -286,6 +236,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.unit.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.LocationServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherAlarmsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.unit.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.WeatherAlarmsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -323,20 +303,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ContextManager" />
       <item itemvalue="Application.EnviroAPPUI" />
-      <item itemvalue="Application.LocationServer" />
       <item itemvalue="Application.PreferenceRepository" />
       <item itemvalue="JUnit.WeatherAlarmsTest.testReadWeatherConditions" />
       <item itemvalue="Multirun.RunAll" />
+      <item itemvalue="JUnit.WeatherAlarmsTest" />
+      <item itemvalue="JUnit.LocationServerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LocationServerTest" />
+        <item itemvalue="JUnit.WeatherAlarmsTest" />
         <item itemvalue="Application.PreferenceRepository" />
         <item itemvalue="JUnit.WeatherAlarmsTest.testReadWeatherConditions" />
         <item itemvalue="Application.EnviroAPPUI" />
-        <item itemvalue="Application.ContextManager" />
-        <item itemvalue="Application.LocationServer" />
       </list>
     </recent_temporary>
   </component>
@@ -357,21 +337,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MedicalConditionTest - 2019.09.06 at 09h 40m 19s.xml">
-      <configuration name="MedicalConditionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SuggestionsTest - 2019.09.06 at 09h 40m 26s.xml">
-      <configuration name="SuggestionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MedicalConditionTest - 2019.09.06 at 09h 40m 50s.xml">
-      <configuration name="MedicalConditionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CityInfoTest - 2019.09.06 at 09h 51m 10s.xml">
-      <configuration name="CityInfoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CityInfoTest - 2019.09.06 at 10h 31m 34s.xml">
-      <configuration name="CityInfoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WeatherAlarmsTest - 2019.09.06 at 20h 57m 54s.xml">
       <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
     </history-entry>
@@ -387,12 +352,28 @@
     <history-entry file="WeatherAlarmsTest_testReadWeatherConditions - 2019.09.07 at 11h 18m 39s.xml">
       <configuration name="WeatherAlarmsTest.testReadWeatherConditions" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WeatherAlarmsTest - 2019.09.07 at 12h 24m 31s.xml">
+      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocationServerTest - 2019.09.07 at 12h 25m 27s.xml">
+      <configuration name="LocationServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocationServerTest - 2019.09.07 at 12h 29m 13s.xml">
+      <configuration name="LocationServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherAlarmsTest - 2019.09.07 at 12h 30m 07s.xml">
+      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocationServerTest - 2019.09.07 at 12h 30m 22s.xml">
+      <configuration name="LocationServerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15047000" />
+    <option name="totallyTimeSpent" value="15738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1990232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -403,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +392,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -588,10 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
+    <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -607,10 +588,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="-380">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
