@@ -4,8 +4,9 @@ Feature: All Sensor
   Scenario Outline: Could sensor get data?
     Given the user is <user>
     When all sensor is initialized
-    Then the value should be obtained correctly like location is <location> and temperature is <temp> and aqi is <aqi>
+    Then the value should be obtained correctly like location is <location> and temperature is <temperature> and aqi is <aqi>
     Examples:
-      | user   | location | temperature | aqi
-      | "Jack123" | "A"      | 10          | 200
+      | user   | location | temperature | aqi |
+      | "Jack" | "A"      | 10          | 200 |
+      | "David" | "A"      | 10          | 200 |
 

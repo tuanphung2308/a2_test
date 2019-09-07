@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493751d5-c421-4b5b-a619-6284c801a61d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/integration/CheckTempReached.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/CheckTempReachedSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csse4004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csse4004.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/integration/AllSensor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/AllSensor.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/integration/AllSensorSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/AllSensorSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -21,24 +23,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
+        <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensor.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/integration/CheckTempReached.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/integration/CheckTempReachedSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+            <state relative-caret-position="460">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,36 +53,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="415">
+              <caret line="55" column="87" selection-start-line="55" selection-start-column="87" selection-end-line="55" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensorSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+            <state relative-caret-position="280">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,6 +95,10 @@
         <option value="$PROJECT_DIR$/src/test/main/WeatherAlarmsTest.java" />
         <option value="$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java" />
         <option value="$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/integration/AllSensorSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/integration/AllSensor.feature" />
+        <option value="$PROJECT_DIR$/src/test/integration/CheckTempReached.feature" />
+        <option value="$PROJECT_DIR$/src/test/integration/CheckTempReachedSteps.java" />
       </list>
     </option>
   </component>
@@ -118,6 +126,11 @@
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
               <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
@@ -175,6 +188,24 @@
               <item name="unit" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="allSensors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LocationServerTest">
+  <component name="RunManager" selected="Cucumber java.Feature: CheckTempReached">
     <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
       <module name="csse4004" />
@@ -227,12 +258,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreferenceRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.PreferenceRepository" />
+    <configuration name="Feature: AllSensor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/AllSensor.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="csse4004" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AllSensor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,48 +276,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocationServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: CheckTempReached" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/CheckTempReached.feature" />
+      <option name="GLUE" value="test.integration" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="csse4004" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: CheckTempReached" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.unit.main.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.unit.main" />
-      <option name="MAIN_CLASS_NAME" value="test.unit.main.LocationServerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Could sensor get data?" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/AllSensor.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="csse4004" />
+      <option name="NAME_FILTER" value="^Could sensor get data\?$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Could sensor get data\?$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Could sensor get data?" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckTempReachedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.unit.main.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main.context" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.CheckTempReachedTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherAlarmsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.unit.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.unit.main" />
-      <option name="MAIN_CLASS_NAME" value="test.unit.main.WeatherAlarmsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherAlarmsTest.testReadWeatherConditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="csse4004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.WeatherAlarmsTest" />
-      <option name="METHOD_NAME" value="testReadWeatherConditions" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -304,18 +345,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.EnviroAPPUI" />
-      <item itemvalue="Application.PreferenceRepository" />
-      <item itemvalue="JUnit.WeatherAlarmsTest.testReadWeatherConditions" />
+      <item itemvalue="Cucumber java.Feature: AllSensor" />
+      <item itemvalue="Cucumber java.Scenario: Could sensor get data?" />
+      <item itemvalue="Cucumber java.Feature: CheckTempReached" />
       <item itemvalue="Multirun.RunAll" />
-      <item itemvalue="JUnit.WeatherAlarmsTest" />
-      <item itemvalue="JUnit.LocationServerTest" />
+      <item itemvalue="JUnit.CheckTempReachedTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LocationServerTest" />
-        <item itemvalue="JUnit.WeatherAlarmsTest" />
-        <item itemvalue="Application.PreferenceRepository" />
-        <item itemvalue="JUnit.WeatherAlarmsTest.testReadWeatherConditions" />
+        <item itemvalue="Cucumber java.Feature: CheckTempReached" />
+        <item itemvalue="JUnit.CheckTempReachedTest" />
+        <item itemvalue="Cucumber java.Feature: AllSensor" />
+        <item itemvalue="Cucumber java.Scenario: Could sensor get data?" />
         <item itemvalue="Application.EnviroAPPUI" />
       </list>
     </recent_temporary>
@@ -337,39 +378,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherAlarmsTest - 2019.09.06 at 20h 57m 54s.xml">
-      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 48m 49s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="WeatherAlarmsTest - 2019.09.06 at 20h 58m 49s.xml">
-      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 49m 40s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="CityInfoTest - 2019.09.06 at 21h 02m 00s.xml">
-      <configuration name="CityInfoTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 50m 33s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="CityInfoTest - 2019.09.06 at 21h 05m 54s.xml">
-      <configuration name="CityInfoTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 50m 51s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="WeatherAlarmsTest_testReadWeatherConditions - 2019.09.07 at 11h 18m 39s.xml">
-      <configuration name="WeatherAlarmsTest.testReadWeatherConditions" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 51m 08s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="WeatherAlarmsTest - 2019.09.07 at 12h 24m 31s.xml">
-      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 51m 19s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="LocationServerTest - 2019.09.07 at 12h 25m 27s.xml">
-      <configuration name="LocationServerTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 54m 10s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="LocationServerTest - 2019.09.07 at 12h 29m 13s.xml">
-      <configuration name="LocationServerTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 54m 15s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="WeatherAlarmsTest - 2019.09.07 at 12h 30m 07s.xml">
-      <configuration name="WeatherAlarmsTest" configurationId="JUnit" />
+    <history-entry file="CheckTempReachedTest - 2019.09.07 at 13h 56m 50s.xml">
+      <configuration name="CheckTempReachedTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LocationServerTest - 2019.09.07 at 12h 30m 22s.xml">
-      <configuration name="LocationServerTest" configurationId="JUnit" />
+    <history-entry file="Feature__CheckTempReached - 2019.09.07 at 13h 57m 39s.xml">
+      <configuration name="Feature: CheckTempReached" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15738000" />
+    <option name="totallyTimeSpent" value="20654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -406,7 +447,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1990232" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1990232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -425,7 +466,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -517,21 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="274" column="41" selection-start-line="274" selection-start-column="41" selection-end-line="274" selection-end-column="41" />
-          <folding>
-            <element signature="e#10555#10556#0" expanded="true" />
-            <element signature="e#10591#10592#0" expanded="true" />
-            <element signature="e#10642#10643#0" expanded="true" />
-            <element signature="e#10679#10680#0" expanded="true" />
-            <element signature="e#10733#10734#0" expanded="true" />
-            <element signature="e#10779#10780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/EnviroAPPUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -543,13 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -576,6 +595,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -588,6 +617,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
@@ -595,9 +631,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/ContextPref.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="227">
           <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -605,10 +655,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
+    <entry file="file://$PROJECT_DIR$/generated/helper/SensorData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        <state relative-caret-position="480">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="326" column="63" lean-forward="true" selection-start-line="326" selection-start-column="63" selection-end-line="326" selection-end-column="63" />
+          <folding>
+            <element signature="e#10555#10556#0" expanded="true" />
+            <element signature="e#10591#10592#0" expanded="true" />
+            <element signature="e#10642#10643#0" expanded="true" />
+            <element signature="e#10679#10680#0" expanded="true" />
+            <element signature="e#10733#10734#0" expanded="true" />
+            <element signature="e#10779#10780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensorSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="55" column="87" selection-start-line="55" selection-start-column="87" selection-end-line="55" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensor.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/CheckTempReached.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/CheckTempReachedSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -48,10 +48,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/cucumber-java-4.7.2.jar!/" />
+          <root url="file://$MODULE_DIR$/cucumber" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/cucumber" recursive="false" />
       </library>
     </orderEntry>
   </component>
