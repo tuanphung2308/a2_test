@@ -5,10 +5,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import main.AllSensors;
-import main.PreferenceRepository;
-import support.Preference;
+import org.junit.Rule;
+import org.junit.rules.ExpectedException;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -17,6 +20,9 @@ public class AllSensorSteps {
     private AllSensors allSensor = null;
     private SensorData sensorData = null;
     private String username;
+    @Rule
+    public ExpectedException expectedEx = ExpectedException.none();
+
     @Given("the user is {string}")
     public void the_user_is(String username) {
         // Write code here that turns the phrase above into concrete actions
@@ -64,10 +70,18 @@ public class AllSensorSteps {
         assertEquals("Temp should match", aqi.intValue(), this.sensorData.aqi);
     }
 
+    @Given("the user has one of the followings name {string}")
+    public void the_user_has_one_of_the_followings_name(String string) {
+        // Write code here that turns the phrase above into concrete actions
+        this.username = username;
+    }
+
     @Then("the program should result in an error")
     public void the_program_should_result_in_an_error() {
+        expectedEx.expect(FileNotFoundException.class);
+        this.allSensor = new AllSensors(this.username);
         // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+//        throw new cucumber.api.PendingException();
     }
 
 }
