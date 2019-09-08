@@ -37,6 +37,6 @@ public class AQISensorTest extends SensorTest {
 
     @Test
     public void testAQI() {
-        testReadWeatherConditions();
+        testReadData();
     }
 }

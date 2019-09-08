@@ -21,7 +21,7 @@ public class SensorTest {
         linkedHashMap = p3;
     }
 
-    public void testReadWeatherConditions() {
+    public void testReadData() {
         Sensor sensor = new Sensor(sensorUsername, sensorType);
 
         try {
