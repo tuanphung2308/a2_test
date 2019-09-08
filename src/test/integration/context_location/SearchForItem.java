@@ -15,11 +15,13 @@ import java.lang.reflect.Method;
 import java.util.LinkedHashMap;
 
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 public class SearchForItem {
     private ContextManager.ContextManagerWorkerI contextManagerWorkerI = new ContextManager.ContextManagerWorkerI();
     private AllSensors allSensors;
     private String username;
+    private String searchLocation;
     @Given("user is logged in under the name of {string}")
     public void user_is_logged_in_under_the_name_of(String username) throws Exception {
         Field communicatorField = (ContextManager.class).getDeclaredField("communicator");
@@ -48,7 +50,8 @@ public class SearchForItem {
     }
 
     @When("the user search for item at duration of {int}")
-    public void the_user_search_for_item_at_duration_of(Integer int1)  throws Exception {
+    public void the_user_search_for_item_at_duration_of(Integer duration)  throws Exception {
+        System.out.println("Duration: " + duration);
         // Write code here that turns the phrase above into concrete actions
         Field field = (ContextManager.class).getDeclaredField("users");
         field.setAccessible(true);
@@ -56,7 +59,11 @@ public class SearchForItem {
 
         Method method = (AllSensors.class).getDeclaredMethod("getSensorData");
         method.setAccessible(true);
-        users.get(username).sensorData = (SensorData) method.invoke(this.allSensors);
+        if (duration == 0)
+            users.get(username).sensorData = (SensorData) method.invoke(this.allSensors);
+        for (int i = 0; i < duration; i++) {
+            users.get(username).sensorData = (SensorData) method.invoke(this.allSensors);
+        }
     }
 
 
@@ -64,6 +71,19 @@ public class SearchForItem {
     public void should_return_the_following_location(String string) {
         // Write code here that turns the phrase above into concrete actions
         String[] results = contextManagerWorkerI.searchItems(username, new Current());
-        assertArrayEquals("Should be equal", string.split(","), results);
+        assertArrayEquals("Should be equal", new String[]{string}, results);
+    }
+
+    @When("the user search for info about {string}")
+    public void the_user_search_for_info_about(String loc) {
+        // Write code here that turns the phrase above into concrete actions
+        this.searchLocation = loc;
+    }
+
+    @Then("should return info about the location {string}")
+    public void should_return_info_about_the_location(String info) {
+        // Write code here that turns the phrase above into concrete actions
+        String results = contextManagerWorkerI.searchInfo(this.searchLocation, new Current());
+        assertEquals("Should be equals", info, results);
     }
 }
