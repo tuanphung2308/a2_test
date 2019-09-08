@@ -2,44 +2,42 @@ package test.unit.support.preference.suite;
 
 import com.zeroc.Ice.Exception;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 import support.Preference;
 
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.assertEquals;
 
-
+@RunWith(Parameterized.class)
 public class MedicalConditionTest {
     private String name;
     private Integer medicalCondition;
-    private List<String> suggestions;
+    private Integer expectedValue;
+    private List<String> suggestions = new ArrayList<>();
 
-    public MedicalConditionTest() {
-
+    public MedicalConditionTest(String name, Integer medicalCondition, Integer expectedValue) {
+        this.name = name;
+        this.medicalCondition = medicalCondition;
+        this.expectedValue = expectedValue;
     }
 
-    @Test
-    public void testGetMedicalCondition() throws Exception {
-        Preference preference = new Preference(name,medicalCondition,suggestions);
-        assertEquals("Equals",medicalCondition,preference.getMedicalCondition());
+    @Parameterized.Parameters
+    public static Collection<Object[]> data() {
+
+        Object[][] data = new Object[][] {
+                {"Jack", 1, 1},
+                {"Jack", 2, 2},
+                {"Jack", 3, 3}
+        };
+        return Arrays.asList(data);
     }
 
     @Test
     public void testSetMedicalCondition() throws Exception {
         Preference preference = new Preference(name,medicalCondition,suggestions);
-        preference.setMedicalCondition(1);
-        assertEquals("1",String.valueOf(preference.getMedicalCondition()));
-    }
-    @Test
-    public void testSetMedicalCondition2() throws Exception {
-        Preference preference = new Preference(name,medicalCondition,suggestions);
-        preference.setMedicalCondition(2);
-        assertEquals("2",String.valueOf(preference.getMedicalCondition()));
-    }
-    @Test
-    public void testSetMedicalCondition3() throws Exception {
-        Preference preference = new Preference(name,medicalCondition,suggestions);
-        preference.setMedicalCondition(3);
-        assertEquals("3",String.valueOf(preference.getMedicalCondition()));
+        preference.setMedicalCondition(expectedValue);
+        assertEquals(expectedValue,preference.getMedicalCondition());
     }
 }
