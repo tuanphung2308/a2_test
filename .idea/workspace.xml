@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/csse4004.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/csse4004.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/context/ReportFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/ReportFunctionTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnviroAPPUI">
+  <component name="RunManager" selected="JUnit.ReportFunctionTest">
     <configuration name="ContextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.ContextManager" />
       <module name="csse4004" />
@@ -101,25 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Today is or is not Friday" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Today is or is not Friday$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Today is or is not Friday$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Today is or is not Friday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: User log in" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_pref.feature" />
@@ -139,24 +122,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReportFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csse4004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.unit.main.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main.context" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.ReportFunctionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="No" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: context_pref" />
-      <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
-      <item itemvalue="Cucumber java.Scenario: User log in" />
-      <item itemvalue="Multirun.No" />
       <item itemvalue="Application.ContextManager" />
       <item itemvalue="Application.EnviroAPPUI" />
+      <item itemvalue="Cucumber java.Feature: context_pref" />
+      <item itemvalue="Cucumber java.Scenario: User log in" />
+      <item itemvalue="Multirun.No" />
+      <item itemvalue="JUnit.ReportFunctionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReportFunctionTest" />
         <item itemvalue="Application.EnviroAPPUI" />
         <item itemvalue="Application.ContextManager" />
         <item itemvalue="Cucumber java.Scenario: User log in" />
         <item itemvalue="Cucumber java.Feature: context_pref" />
-        <item itemvalue="Cucumber java.Scenario: Today is or is not Friday" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1567849873173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="workspace ...">
+      <created>1567855398031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567855398031</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Last unit test for report function">
+      <created>1567874135365</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567874135365</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finalize test case">
+      <created>1567876873810</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567876873810</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +238,10 @@
     <MESSAGE value="- Remove unused files" />
     <MESSAGE value="Test categorized" />
     <MESSAGE value="Integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integration" />
+    <MESSAGE value="workspace ..." />
+    <MESSAGE value="Last unit test for report function" />
+    <MESSAGE value="Finalize test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalize test case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -233,6 +255,11 @@
           <url>file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchInfoTest.java</url>
           <line>74</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/unit/main/context/ReportFunctionTest.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
