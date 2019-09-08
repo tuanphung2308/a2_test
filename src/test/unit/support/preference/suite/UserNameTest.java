@@ -41,7 +41,7 @@ public class UserNameTest {
     @Test
     public void testSetName() throws Exception {
         Preference preference = new Preference(name,medicalCondition,suggestions);
-        preference.setName("Jack");
-        assertEquals("Jack",preference.getName());
+        preference.setName("Jin");
+        assertEquals("Jin",preference.getName());
     }
 }

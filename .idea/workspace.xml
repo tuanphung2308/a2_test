@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a6a095-4777-40c3-8130-b5bbded9028b" name="Default Changelist" comment="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;bin/META-INF/csse4004.kotlin_module&#10;#&#9;src/test/integration/ContextPref.java">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/weather_alarms/Weather_alarm.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/integration/weather_alarms/Weather_alarms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/integration/LocationServerT.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/LocationServerT.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/integration/LocationServerT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/LocationServerT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/support/preference/suite/UserNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/preference/suite/UserNameTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,102 +17,107 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/LocationServerT.feature">
+        <entry file="file://$PROJECT_DIR$/generated/helper/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-380">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding>
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/support/Preference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Preference">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/PreferenceRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1192">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/suite/ToStringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/suite/UserNameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/PreferenceSuite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CityInfoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-988">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/EnviroAPPUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1895">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoAPOSuggestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/support/LocationDetailsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="228">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/TestRun.java">
+        <entry file="file://$PROJECT_DIR$/src/support/LocationDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/TestSetupMonitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/TestStop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="311">
+              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -126,6 +130,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+      <find>medi</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -144,6 +154,13 @@
         <option value="$PROJECT_DIR$/src/test/integration/LocationServerT.feature" />
         <option value="$PROJECT_DIR$/src/test/integration/LocationServerT.java" />
         <option value="$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java" />
+        <option value="$PROJECT_DIR$/src/test/integration/weather_alarms/Weather_alarm.feature" />
+        <option value="$PROJECT_DIR$/src/test/unit/support/preference/suite/MedicalConditionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/ContextManager.java" />
+        <option value="$PROJECT_DIR$/Preference" />
+        <option value="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/support/preference/suite/ToStringTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/support/preference/suite/UserNameTest.java" />
       </list>
     </option>
   </component>
@@ -161,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,21 +202,13 @@
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
               <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
               <item name="a2_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
@@ -205,7 +216,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
@@ -214,7 +224,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="unit" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="allSensors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
@@ -235,12 +253,37 @@
               <item name="preference" type="462c0819:PsiDirectoryNode" />
               <item name="suite" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+              <item name="suite" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,9 +318,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Could location server be mapping?">
-    <configuration name="LocationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.LocationServer" />
+  <component name="RunManager" selected="JUnit.PreferenceSuite">
+    <configuration name="EnviroAPPUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.EnviroAPPUI" />
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
@@ -289,94 +332,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: ContextPref" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/ContextPref.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="HandleUserInputTest.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: ContextPref" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.support.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.support" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.support.HandleUserInputTest" />
+      <option name="METHOD_NAME" value="testRun" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: LocationServerT" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/LocationServerT.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="PreferenceSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: LocationServerT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.support.preference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.support.preference" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.support.preference.PreferenceSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Could location server be mapping?" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/LocationServer.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="ToStringTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Could location server be mapping\?$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Could location server be mapping\?$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Could location server be mapping?" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.support.preference.suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.support.preference.suite" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.support.preference.suite.ToStringTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Could location server be mapping?" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/LocationServerT.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="UserNameTest.testSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Could location server be mapping\?$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Could location server be mapping\?$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Could location server be mapping?" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.support.preference.suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: User exists" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/ContextPref.feature" />
-      <option name="GLUE" value="test.integration" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="csse4004" />
-      <option name="NAME_FILTER" value="^User exists$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^User exists$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User exists" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="test.unit.support.preference.suite" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.support.preference.suite.UserNameTest" />
+      <option name="METHOD_NAME" value="testSetName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,19 +399,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LocationServer" />
-      <item itemvalue="Cucumber java.Scenario: User exists" />
-      <item itemvalue="Cucumber java.Feature: ContextPref" />
-      <item itemvalue="Cucumber java.Scenario: Could location server be mapping?" />
-      <item itemvalue="Cucumber java.Feature: LocationServerT" />
+      <item itemvalue="Application.EnviroAPPUI" />
+      <item itemvalue="JUnit.UserNameTest.testSetName" />
+      <item itemvalue="JUnit.HandleUserInputTest.testRun" />
+      <item itemvalue="JUnit.ToStringTest.testToString" />
+      <item itemvalue="JUnit.PreferenceSuite" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Could location server be mapping?" />
-        <item itemvalue="Cucumber java.Feature: LocationServerT" />
-        <item itemvalue="Cucumber java.Scenario: Could location server be mapping?" />
-        <item itemvalue="Cucumber java.Feature: ContextPref" />
-        <item itemvalue="Cucumber java.Scenario: User exists" />
+        <item itemvalue="JUnit.PreferenceSuite" />
+        <item itemvalue="JUnit.UserNameTest.testSetName" />
+        <item itemvalue="JUnit.ToStringTest.testToString" />
+        <item itemvalue="JUnit.HandleUserInputTest.testRun" />
+        <item itemvalue="Application.EnviroAPPUI" />
       </list>
     </recent_temporary>
   </component>
@@ -413,6 +427,9 @@
       <updated>1567734679402</updated>
       <workItem from="1567734683342" duration="3559000" />
       <workItem from="1567829474935" duration="5845000" />
+      <workItem from="1567862776305" duration="4041000" />
+      <workItem from="1567875534023" duration="641000" />
+      <workItem from="1567917452458" duration="9039000" />
     </task>
     <task id="LOCAL-00001" summary="Finished context&#10;Merge">
       <created>1567781449298</created>
@@ -435,62 +452,70 @@
       <option name="project" value="LOCAL" />
       <updated>1567781579091</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;bin/META-INF/csse4004.kotlin_module&#10;#&#9;src/test/integration/ContextPref.java">
+      <created>1567845377292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567845377292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Could_location_server_be_mapping_ - 2019.09.07 at 16h 47m 10s.xml">
-      <configuration name="Scenario: Could location server be mapping?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="UserNameTest_testSetName - 2019.09.08 at 14h 40m 34s.xml">
+      <configuration name="UserNameTest.testSetName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_location_server_be_mapping_ - 2019.09.07 at 16h 47m 49s.xml">
-      <configuration name="Scenario: Could location server be mapping?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="HandleUserInputTest_testRun - 2019.09.08 at 15h 38m 22s.xml">
+      <configuration name="HandleUserInputTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_location_server_be_mapping_ - 2019.09.07 at 16h 48m 38s.xml">
-      <configuration name="Scenario: Could location server be mapping?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="HandleUserInputTest_testRun - 2019.09.08 at 15h 38m 34s.xml">
+      <configuration name="HandleUserInputTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_location_server_be_mapping_ - 2019.09.07 at 16h 48m 58s.xml">
-      <configuration name="Scenario: Could location server be mapping?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="ToStringTest_testToString - 2019.09.08 at 16h 26m 33s.xml">
+      <configuration name="ToStringTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_location_server_be_mapping_ - 2019.09.07 at 16h 50m 07s.xml">
-      <configuration name="Scenario: Could location server be mapping?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="ToStringTest_testToString - 2019.09.08 at 16h 26m 51s.xml">
+      <configuration name="ToStringTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__LocationServerT - 2019.09.07 at 16h 54m 24s.xml">
-      <configuration name="Feature: LocationServerT" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="ToStringTest_testToString - 2019.09.08 at 16h 53m 25s.xml">
+      <configuration name="ToStringTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__LocationServerT - 2019.09.07 at 16h 54m 49s.xml">
-      <configuration name="Feature: LocationServerT" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="ToStringTest_testToString - 2019.09.08 at 16h 53m 52s.xml">
+      <configuration name="ToStringTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__LocationServerT - 2019.09.07 at 16h 55m 27s.xml">
-      <configuration name="Feature: LocationServerT" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="UserNameTest_testSetName - 2019.09.08 at 16h 54m 11s.xml">
+      <configuration name="UserNameTest.testSetName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_location_server_be_mapping_ - 2019.09.07 at 16h 55m 53s.xml">
-      <configuration name="Scenario: Could location server be mapping?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="UserNameTest_testSetName - 2019.09.08 at 16h 54m 14s.xml">
+      <configuration name="UserNameTest.testSetName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_location_server_be_mapping_ - 2019.09.07 at 16h 56m 29s.xml">
-      <configuration name="Scenario: Could location server be mapping?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="PreferenceSuite - 2019.09.08 at 17h 01m 48s.xml">
+      <configuration name="PreferenceSuite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12921000" />
+    <option name="totallyTimeSpent" value="27554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32765958" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.24822696" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
@@ -510,12 +535,53 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished context" />
     <MESSAGE value="Finished context&#10;Merge" />
     <MESSAGE value="- Remove unused files" />
     <MESSAGE value="Test categorized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test categorized" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;bin/META-INF/csse4004.kotlin_module&#10;#&#9;src/test/integration/ContextPref.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;bin/META-INF/csse4004.kotlin_module&#10;#&#9;src/test/integration/ContextPref.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -538,324 +604,36 @@
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java</url>
+          <line>88</line>
+          <properties class="test.unit.main.context.AQIThreshHoldTest" method="testThreshHold">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JackTemperature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DavidAQI">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DavidLocation">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DavidTemperature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/Stepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerAddUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/preference/suite/worker/PrefWorkerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ice-3.7.2.jar!/com/zeroc/Ice/Communicator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ice-3.7.2.jar!/com/zeroc/Ice/CommunicatorI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2565">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/LocationDetailsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/SensorSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/support/LocationDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/support/HandleUserInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/LocationSensorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/TemperatureSensorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/EnviroAPPUITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/ContextManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/UserClockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/UsernameAndTypeSensorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/AQISensorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckApoReachedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="50" column="90" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/support/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/SensorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="422" column="24" selection-start-line="422" selection-start-column="24" selection-end-line="422" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/PreferenceRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/PreferenceRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/ContextPref.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="96" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="95" column="69" lean-forward="true" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/LocationServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="44" column="61" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensorSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/ContextPref.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/AllSensor.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LocationServerConfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/LocationServerT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/integration/LocationServerT.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CityInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/EnviroAPPUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1895">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoAPOSuggestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/integration/weather_alarms/Weather_alarms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/TestRun.java">
+    <entry file="file://$PROJECT_DIR$/src/test/integration/weather_alarms/Weather_alarm.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -881,15 +659,310 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/AllSensorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
+        <state relative-caret-position="19">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/allSensors/GetSensorDataTest.java">
+    <entry file="file://$PROJECT_DIR$/%" />
+    <entry file="file://$PROJECT_DIR$/src/main/EnviroAPPUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="95">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/suite/MedicalConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorFailure.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/LocationServerT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/integration/LocationServerT.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/WeatherAlarms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DavidAQI">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DavidLocation">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JackAQI">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JackLocation">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JackTemperature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LocationServerConfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_alarms.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityInfo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/WeatherAlarmsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/PreferenceRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2629">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/LocationServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="96" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/EnviroAPPUITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/ContextManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4959">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="243" column="11" lean-forward="true" selection-start-line="243" selection-start-column="11" selection-end-line="243" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16626">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoAPOSuggestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/helper/SensorData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckApoReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DavidTemperature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/helper/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preference">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/PreferenceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1192">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/Preference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/suite/ToStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/suite/UserNameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/PreferenceSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/LocationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/LocationDetailsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
