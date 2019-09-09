@@ -37,6 +37,15 @@ public class LocationsByServiceTest {
                                 )
                 },
                 {
+                        "SHOPS",
+                        Arrays.asList(
+                                "Vivo City Shopping Centre",
+                                "Crescent Mall",
+                                "Dam Sen Parklands",
+                                "Ho Chi Minh City, Downtown"
+                        )
+                },
+                {
                         "cinema",
                         Arrays.asList(
                                 "Vivo City Shopping Centre",

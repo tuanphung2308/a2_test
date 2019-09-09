@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493751d5-c421-4b5b-a619-6284c801a61d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AQI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Location" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temperature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/unit/main/context/ReportFunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ContextManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ContextManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorFailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorFailure.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/HandleUserInputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/support/sensor/SensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/SensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/AQISensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/AQISensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/LocationSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/LocationSensorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/TemperatureSensorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/support/sensor/suite/TemperatureSensorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -30,49 +19,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSuccess.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            <state relative-caret-position="960">
+              <caret line="81" column="30" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/UserClockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="79" column="39" lean-forward="true" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckApoReachedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/support/Sensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorFailure.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="195">
+              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -92,6 +69,7 @@
       <find>readCityInfo</find>
       <find>weather</find>
       <find>Jack</find>
+      <find>checkweather</find>
     </findStrings>
     <replaceStrings>
       <replace>Jacky</replace>
@@ -131,14 +109,16 @@
         <option value="$PROJECT_DIR$/src/test/unit/support/sensor/SensorTest.java" />
         <option value="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorFailure.feature" />
         <option value="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/support/preference/suite/MedicalConditionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="25" />
-    <option name="width" value="1440" />
-    <option name="height" value="819" />
+    <option name="x" value="81" />
+    <option name="y" value="23" />
+    <option name="width" value="1359" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,6 +186,22 @@
               <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="context_location" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="context_pref" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,7 +236,64 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="worker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+              <item name="suite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csse4004" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a2_test 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+              <item name="suite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,18 +349,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Error if the file is not found">
-    <configuration name="Feature: SearchForItem" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_location/SearchForItem.feature" />
-      <option name="GLUE" value="test.integration.context_location" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+  <component name="RunManager" selected="JUnit.CheckApoReachedTest">
+    <configuration name="LocationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.LocationServer" />
       <module name="csse4004" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: SearchForItem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,18 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Could sensor get data?" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSuccess.feature" />
-      <option name="GLUE" value="test.integration.all_sensor" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="PreferenceRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.PreferenceRepository" />
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Could sensor get data\?$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Could sensor get data\?$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Could sensor get data?" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,18 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Error if the file is not found" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorFailure.feature" />
-      <option name="GLUE" value="test.integration.all_sensor" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="WeatherAlarms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.WeatherAlarms" />
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Error if the file is not found$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Error if the file is not found$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Error if the file is not found" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,35 +389,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Search for info about a location" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/integration/context_location/SearchInfo.feature" />
-      <option name="GLUE" value="test.integration.context_location" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="CheckApoReachedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
-      <option name="NAME_FILTER" value="^Search for info about a location$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Search for info about a location$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search for info about a location" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="test.unit.main.context.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.unit.main.context" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.CheckApoReachedTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleUserInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocationsByServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csse4004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.unit.support.*" />
+          <option name="PATTERN" value="test.unit.main.context.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.unit.support" />
-      <option name="MAIN_CLASS_NAME" value="test.unit.support.HandleUserInputTest" />
+      <option name="PACKAGE_NAME" value="test.unit.main.context" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.main.context.LocationsByServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -404,20 +436,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: SearchForItem" />
-      <item itemvalue="Cucumber java.Scenario: Search for info about a location" />
-      <item itemvalue="Cucumber java.Scenario: Could sensor get data?" />
-      <item itemvalue="Cucumber java.Scenario: Error if the file is not found" />
-      <item itemvalue="JUnit.HandleUserInputTest" />
       <item itemvalue="Multirun.RunAll" />
+      <item itemvalue="JUnit.LocationsByServiceTest" />
+      <item itemvalue="Application.WeatherAlarms" />
+      <item itemvalue="Application.PreferenceRepository" />
+      <item itemvalue="Application.LocationServer" />
+      <item itemvalue="JUnit.CheckApoReachedTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Error if the file is not found" />
-        <item itemvalue="Cucumber java.Scenario: Could sensor get data?" />
-        <item itemvalue="JUnit.HandleUserInputTest" />
-        <item itemvalue="Cucumber java.Scenario: Search for info about a location" />
-        <item itemvalue="Cucumber java.Feature: SearchForItem" />
+        <item itemvalue="JUnit.CheckApoReachedTest" />
+        <item itemvalue="JUnit.LocationsByServiceTest" />
+        <item itemvalue="Application.LocationServer" />
+        <item itemvalue="Application.PreferenceRepository" />
+        <item itemvalue="Application.WeatherAlarms" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +466,7 @@
       <workItem from="1567735470512" duration="6989000" />
       <workItem from="1567775587892" duration="3302000" />
       <workItem from="1567825156541" duration="3423000" />
-      <workItem from="1567917184705" duration="7491000" />
+      <workItem from="1567917184705" duration="13510000" />
     </task>
     <task id="LOCAL-00001" summary="merge">
       <created>1567835339857</created>
@@ -464,43 +496,57 @@
       <option name="project" value="LOCAL" />
       <updated>1567918747138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1567930121275</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567930121275</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1567930442703</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567930442703</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Search_for_info_about_a_location - 2019.09.08 at 12h 22m 25s.xml">
-      <configuration name="Scenario: Search for info about a location" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="MedicalConditionTest - 2019.09.08 at 15h 13m 24s.xml">
+      <configuration name="MedicalConditionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandleUserInputTest - 2019.09.08 at 12h 22m 30s.xml">
-      <configuration name="HandleUserInputTest" configurationId="JUnit" />
+    <history-entry file="AQIThreshHoldTest - 2019.09.08 at 15h 41m 49s.xml">
+      <configuration name="AQIThreshHoldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_sensor_get_data_ - 2019.09.08 at 14h 26m 25s.xml">
-      <configuration name="Scenario: Could sensor get data?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CityInfoTest - 2019.09.08 at 16h 02m 07s.xml">
+      <configuration name="CityInfoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Could_sensor_get_data_ - 2019.09.08 at 14h 26m 47s.xml">
-      <configuration name="Scenario: Could sensor get data?" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CityInfoTest - 2019.09.08 at 16h 05m 03s.xml">
+      <configuration name="CityInfoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Error_if_the_file_is_not_found - 2019.09.08 at 14h 55m 09s.xml">
-      <configuration name="Scenario: Error if the file is not found" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="UserClockTest_testResetClock - 2019.09.08 at 16h 11m 53s.xml">
+      <configuration name="UserClockTest.testResetClock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Error_if_the_file_is_not_found - 2019.09.08 at 14h 55m 23s.xml">
-      <configuration name="Scenario: Error if the file is not found" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="UserClockTest_testTickClock - 2019.09.08 at 16h 23m 28s.xml">
+      <configuration name="UserClockTest.testTickClock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Error_if_the_file_is_not_found - 2019.09.08 at 14h 57m 49s.xml">
-      <configuration name="Scenario: Error if the file is not found" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="LocationsByServiceTest - 2019.09.08 at 16h 35m 22s.xml">
+      <configuration name="LocationsByServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Error_if_the_file_is_not_found - 2019.09.08 at 14h 58m 55s.xml">
-      <configuration name="Scenario: Error if the file is not found" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="LocationsByServiceTest - 2019.09.08 at 16h 35m 36s.xml">
+      <configuration name="LocationsByServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Error_if_the_file_is_not_found - 2019.09.08 at 14h 59m 37s.xml">
-      <configuration name="Scenario: Error if the file is not found" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="LocationsByServiceTest - 2019.09.08 at 16h 36m 04s.xml">
+      <configuration name="LocationsByServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Error_if_the_file_is_not_found - 2019.09.08 at 15h 03m 42s.xml">
-      <configuration name="Scenario: Error if the file is not found" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CheckApoReachedTest - 2019.09.08 at 16h 59m 05s.xml">
+      <configuration name="CheckApoReachedTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34838000" />
+    <option name="totallyTimeSpent" value="40857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,10 +558,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="25" width="1440" height="819" extended-state="0" />
-    <editor active="true" />
+    <frame x="81" y="23" width="1359" height="722" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.48823082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,8 +568,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.3741403" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.37619048" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3493976" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,7 +629,8 @@
     <MESSAGE value="merge" />
     <MESSAGE value="integration" />
     <MESSAGE value="Search integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search integration" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tuanphung2308/a2_test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -605,27 +651,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/integration/context_pref/ContextLoginSuccess.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/preference/suite/PrefRepoTempSuggestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/PreferenceRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-620">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/integration/context_pref/ContextLoginFailure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -666,38 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchItemsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
           <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckApoReachedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CityInfoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -737,25 +734,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/integration/context_location/package.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="119" column="55" lean-forward="true" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
-          <folding>
-            <element signature="method#setupAlerter#0;class#ContextManager#0" />
-            <element signature="method#setupSubcriber#0;class#ContextManager#0" />
-            <element signature="method#setupContextManagerWorker#0;class#ContextManager#0" />
-            <element signature="method#iniPreferenceWorker#0;class#ContextManager#0" />
-            <element signature="e#10555#10556#0" expanded="true" />
-            <element signature="e#10591#10592#0" expanded="true" />
-            <element signature="e#10642#10643#0" expanded="true" />
-            <element signature="e#10679#10680#0" expanded="true" />
-            <element signature="e#10733#10734#0" expanded="true" />
-            <element signature="e#10779#10780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/integration/context_location/SearchInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/worker/WorkerSearchInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -812,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/suite/MedicalConditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -919,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/AQISensorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/UsernameAndTypeSensorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -981,6 +945,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/sensor/suite/AQISensorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/suite/MedicalConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/support/preference/PreferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSuccess.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-130">
@@ -988,27 +973,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
+    <entry file="file://$PROJECT_DIR$/src/support/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="271">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <element signature="e#1471#1717#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/support/Sensor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/AllSensors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        <state relative-caret-position="222">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/integration/all_sensor/AllSensorSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+        <state relative-caret-position="684">
+          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckTempReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="300" column="44" selection-start-line="300" selection-start-column="29" selection-end-line="300" selection-end-column="44" />
+          <folding>
+            <element signature="method#setupAlerter#0;class#ContextManager#0" />
+            <element signature="method#setupSubcriber#0;class#ContextManager#0" />
+            <element signature="method#setupContextManagerWorker#0;class#ContextManager#0" />
+            <element signature="method#iniPreferenceWorker#0;class#ContextManager#0" />
+            <element signature="e#9587#9973#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CityInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="79" column="80" selection-start-line="79" selection-start-column="80" selection-end-line="79" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/UserClockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/AQIThreshHoldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/LocationsByServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="79" column="39" lean-forward="true" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/main/context/CheckApoReachedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
