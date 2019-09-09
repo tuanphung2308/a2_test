@@ -192,25 +192,25 @@ public class ReportFunctionTest {
     }
 
     public void report(SensorData sensorData, Current current) throws Exception{
-        String username = sensorData.username;
-        user.sensorData = sensorData;
+    String username = sensorData.username;
+    user.sensorData = sensorData;
 
-        if (previouslocationStatus.equals(OUTDOOR) && currentLocationStatus.equals(INDOOR)) {
-            resetClock(username);
-        }
-        if (user.sensorData.aqi != previousaqi) {
-            resetClock(username);
-            user.apoThreshhold = calculateapoThreshhold(user);
-        }
-        if (user.sensorData.temperature != previousTemperature) {
-            user.tempReached = false;
-        }
-        if (currentLocationStatus.equals(OUTDOOR)) {
-            tickClock(username);
-        }
+    if (previouslocationStatus.equals(OUTDOOR) && currentLocationStatus.equals(INDOOR)) {
+        resetClock(username);
+    }
+    if (user.sensorData.aqi != previousaqi) {
+        resetClock(username);
+        user.apoThreshhold = calculateapoThreshhold(user);
+    }
+    if (user.sensorData.temperature != previousTemperature) {
+        user.tempReached = false;
+    }
+    if (currentLocationStatus.equals(OUTDOOR)) {
+        tickClock(username);
+    }
 
-        apoReached = checkapoReached(user);
-        tempReached = checkTempReached(user);
+    apoReached = checkapoReached(user);
+    tempReached = checkTempReached(user);
     }
 
     private void tickClock(String username) {

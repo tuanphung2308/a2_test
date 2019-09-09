@@ -37,7 +37,8 @@ public class WorkerSearchItemsTest {
                 { "David", "C", new String[]{"Dam Sen Parklands"} },
                 { "David", "D", new String[]{"Ho Chi Minh City, Downtown"} },
                 { "David", "E", new String[]{} },
-                { "David", "", new String[]{} }
+                { "David", "", new String[]{} },
+                { "David", " ", new String[]{} }
         };
         return Arrays.asList(data);
     }

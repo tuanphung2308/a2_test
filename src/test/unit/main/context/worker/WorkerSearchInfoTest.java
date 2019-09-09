@@ -35,8 +35,8 @@ public class WorkerSearchInfoTest {
                 { "Crescent Mall", "Crescent Mall Shopping Centre is located 10km South of the Ho Chi Minh City central business district(CBD) and includes Banana Republic, Baskin Robins, CGV Cinema, Bobapop and over 130 specialty stores." },
                 { "Dam Sen Parklands", "The Dam Sen Parklands area was created as part of the rejuvenation of the industrial upgrade undertaken for World Expo 1988. The Parklands area is spacious with plenty of green and spaces for all ages. A big lake promenade stretches the area of Dam Sen Parklands."},
                 { "Ho Chi Minh City, Downtown", "The Ho Chi Minh City central business district (CBD), or 'the City' is located on a central point in district One. The point, known at its tip as Central Point, slopes upward to the north-west where 'the city' is bounded by parkland and the inner city suburb of District 3, District 4 and District 5."},
-                { "", "Not Found"},
-                { "asdasdasdasdasdasasdas", "Not Found"}
+                { "", null},
+                { "asdasdasdasdasdasasdas", null}
         };
         return Arrays.asList(data);
     }

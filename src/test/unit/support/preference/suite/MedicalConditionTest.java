@@ -29,9 +29,17 @@ public class MedicalConditionTest {
         Object[][] data = new Object[][] {
                 {"Jack", 1, 1},
                 {"Jack", 2, 2},
-                {"Jack", 3, 3}
+                {"Jack", 3, 3},
+                {"David", 1, 1},
+                {"David", 2, 2},
+                {"David", 3, 3}
         };
         return Arrays.asList(data);
+    }
+    @Test
+    public void testGetName() throws Exception {
+        Preference preference = new Preference(name,medicalCondition,suggestions);
+        assertEquals(expectedValue,medicalCondition,preference.getMedicalCondition());
     }
 
     @Test
